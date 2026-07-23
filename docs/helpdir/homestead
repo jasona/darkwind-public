@@ -1,4 +1,4 @@
-Syntax: homestead [return|status|survey|map|upgrades|help]
+Syntax: homestead [return|status|survey|map|upgrades|furnishings|customize|help]
 
 Homesteads are the foundation for future player-built homes, crafted rooms,
 and shared kingdom spaces. The kingdom commons is meant to be explored in
@@ -126,12 +126,26 @@ walk the survey road back.
 
 Shaping your plot:
 
-  homestead title <room title>
-  homestead describe <room description>
-  homestead look add <noun> = <description>
+  homestead customize
+  homestead short <room title>       (alias: homestead title)
+  homestead short reset
+  homestead long <room description>  (alias: homestead describe)
+  homestead long reset
+  homestead look add|edit <noun> = <description>
   homestead look remove <noun>
+  homestead look list
+  homestead smell add|edit <noun> = <description>
+  homestead smell remove <noun>
+  homestead smell list
+  homestead action add|edit <command> = <response>
+  homestead action remove <command>
+  homestead action list
 
 These commands work while you are standing inside your own homestead. Text is
-bounded and saved by the homestead daemon. Room shaping is descriptive only:
-it lets you shape what visitors read and inspect, but it does not run custom
-scripts or create arbitrary commands.
+bounded and saved by the homestead daemon. Adding an existing look, smell, or
+action name edits it in place. 'smell <noun>' and 'sniff <noun>' reveal saved
+smells; a single room smell also appears for a bare 'smell'. Custom actions
+return the saved response when a visitor types the exact saved phrase. They
+are descriptive data, not LPC scripts, and cannot replace movement, combat,
+communication, inventory, or administrative commands. Each room currently
+supports 20 looks, 12 smells, 12 actions, and eight crafted furnishings.
