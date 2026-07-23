@@ -1,0 +1,24 @@
+Dance of Death - ultimate technique
+------------------------------------------------------------
+The Dance of Death, the kensai's legendary 'whirlwind
+attack', is the swashbuckler's ultimate technique. A
+synthesis of mind, body, and blade which is deceptively
+delicate and lethally beautiful. It combines the aspects
+of many of the swashbuckler's individual techniques to
+create a cocoon of steel round the warrior. In order to
+engage in the Dance of Death, the swashbuckler must become
+one with his blade in the heat of combat. As he approaches
+this state, he will find his technique gradually improving
+until he reaches the pinnacle of his skill, and his
+movements become almost effortless. A swashbuckler will
+all his faculties - speed, intellect and charm in order to
+execute the Dance of Death to the utmost effect.
+
+Dance is passive. At 100 Flow, each eligible combat round has a 5%
+chance to steal one guaranteed weapon hit. At GL 15, full Flow also
+has a separate, very rare chance to make the next paid technique free.
+
+GL: 15
+SP: Passive
+command:  sdance (compatibility information only)
+duration: passive at full Flow

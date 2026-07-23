@@ -1,0 +1,28 @@
+|CKB=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+|WKB                          QUEST COMMANDS
+|CKB=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+|YKOThe following commands and interactions manage quests:
+
+  |YKBengage waysteward
+    |YKOReviews local quests at an area's wayshard or entrance. A bright
+    yellow |YKB[?] |YKOmeans new work is available; |YKB[!] |YKOmeans a
+    completed quest can be turned in. The dialogue shows suggested levels,
+    objectives, prerequisites, and rewards before you accept.
+
+  |YKBmyquests
+    |YKOLists all quests you have accepted and their current status.
+
+  |YKBqstatus
+    |YKOShows detailed progress for accepted unfinished quests. Use
+    |YKBqstatus <number> |YKOwith numbers from |YKBmyquests|YKO.
+
+  |YKBqactive |WKB<number>
+    |YKOCompatibility command. All accepted quests track automatically.
+
+  |YKBescort
+    |YKOBegins an escort objective when its NPC does not start automatically.
+
+|CKB=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+|WKBSee also: |YKBhelp quests, help quests objectives
+|CKB=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

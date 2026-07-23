@@ -1,0 +1,12 @@
+Skewer - retired blade technique name
+------------------------------------------------------------
+Skewer was the former name for the Impale blade technique.
+Use 'starttech impale' to concentrate on deep piercing
+strikes. Impale's damage now increases at each character-
+level bracket: +45 below Hero, +56 at Hero, +67 at Legend,
++78 at Epic, and +90 at Mythic.
+
+GL: 11
+SP:  9 / proc, reduced by Flow
+command:  starttech impale
+duration: technique mode

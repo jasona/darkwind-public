@@ -1,0 +1,34 @@
+|CKBStreet Samurai|000
+
+|CK0Street Samurai are cybernetic combat specialists whose Cortex OS links
+signature implants into one platform. They earn guild experience through
+Darkwind's shared battle progression, create and spend Edge, manage Heat, and
+maintain their installed hardware.|000
+
+|CK0Most active firmware remains usable at zero Edge. When Edge is available,
+the Cortex automatically routes it into stronger damage, duration, shielding,
+healing, or control effects. Specialized routines have their own Edge behavior,
+explained through samhelp resources and samhelp <routine>.|000
+
+|CK0Guild Level unlocks firmware and signature implants through GL16. Cortex
+Rank continues through CR200 as long-term progression. The public contract
+office is east of Fountain Court near Moongate Plaza; joining installs the
+starter Cortex OS automatically.|000
+
+|CK0Rin Kade operates the restricted guild clinic beyond the contract office.
+Active members pay for signature hardware but receive covered installation,
+extraction, and signature repair services. Samrepair is only for a corrupt or
+incomplete guild installation, not normal onboarding.|000
+
+|CKBStarting commands|000
+|CK0dashboard - firmware version, Cortex, and implant diagnostic
+samskills - routine unlocks, costs, and readiness
+samstatus - compact combat and resource state
+samxp - Guild Level, Cortex Rank, and GXP progress
+samspam [verbose|brief|off] - implant activation message detail
+samhelp start - first-deployment checklist and combat loop
+samhelp commands - complete command and topic index|000
+
+|CK0Use samhelp <routine> for focused firmware guidance. Samhelp resources,
+firmware, hardware, maintenance, mon, contract, prices, and network explain the
+guild's major systems and the decisions each one supports.|000

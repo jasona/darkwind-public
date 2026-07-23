@@ -1,0 +1,30 @@
+|CKB=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+|WKB                           THE QUEST SYSTEM
+|CKB=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+|YKODarkWind features a quest system that gives you objectives to
+complete for experience and gold rewards. Quests range from simple
+tasks like slaying a few monsters to multi-step adventures involving
+item retrieval, rescues, and escorts.
+
+|WKBGetting Started:|XX0
+
+|YKO  1. Find the waysteward beside an area's wayshard or entrance.
+  2. A bright yellow |YKB[?] |YKOmeans the steward has work available.
+  3. Use |YKBengage waysteward |YKOto review and accept a quest.
+  4. Complete its objectives; a bright yellow |YKB[!] |YKOthen appears.
+  5. Engage the same area's waysteward to turn in the quest and collect rewards.
+
+|WKBKey Concepts:|XX0
+
+|YKO  You may accept multiple quests. All accepted quests track progress
+  automatically, so you do not need to choose an active quest.
+
+  Each quest has one or more |WKBobjectives|YKO. These tell you what to
+  do - kill certain creatures, find specific items, rescue someone,
+  or escort an NPC to safety. Use |YKBqstatus |YKOto check your progress.
+
+|CKB=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+|WKBSee also: |YKBhelp quests commands, help quests objectives,
+         help quests rewards
+|CKB=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

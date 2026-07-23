@@ -1,0 +1,103 @@
+The Eternal Dungeon is an instanced endless dungeon run for a solo
+player or a small group.
+
+Once you enter, your run is private to your party. Each floor is
+generated for that run, filled with themed rooms, enemies, objectives,
+affixes, and a final leader encounter.
+
+Basic commands:
+
+  eternal enter [floor]
+  eternal status
+  eternal leave
+  eternal rejoin
+  eternal leaderboard [v2|legacy]
+  eternal choose <1-3>
+
+How it works:
+
+  1. Enter the dungeon.
+  2. Complete the floor objective.
+  3. A portal opens with one or more route choices.
+  4. Use portal <route> or enter portal <route> to advance.
+  5. Repeat until the run wipes.
+
+Some objectives happen before the final leader. If the dungeon asks you
+to recover a relic or cleanse a shrine, the object will appear in an
+earlier chamber and the room description will show the exact command:
+recover relic or cleanse shrine. The final portal will not open until
+the objective and the leader are both handled.
+
+Routes can include safe, elite, boss, or unstable paths. Harder routes
+pay more Eternal Shards, but they also make the next floor more
+dangerous.
+
+Every few floors the dungeon may offer a bargain. The run leader can
+use eternal choose <1-3> to accept one of the offered boons or curses
+before advancing.
+
+Deaths inside the Eternal Dungeon are not normal deaths. If the run
+fails, players are returned safely and rewarded based on how far the run
+advanced.
+
+Your progress is tracked, including runs, kills, defeats, and highest
+floor reached. Personal best floors can also be announced on Events when
+you surpass your old record. Eternal v2 has its own leaderboard and
+shard progress. Legacy records remain visible with eternal leaderboard
+legacy.
+
+Checkpoints unlock every 5 floors. Solo checkpoints belong to the
+player who unlocked them. Group checkpoints belong to the exact party
+composition that unlocked them, so the same players must reunite to use
+those group checkpoints.
+
+Use eternal enter [floor] to start from an unlocked checkpoint. Use
+eternal status to view your available solo checkpoints and, when your
+party is assembled, any group checkpoints for that composition.
+
+Leaderboard entries show the starting floor when a run began from a
+checkpoint. Skipped floors do not grant reward compensation. V2 and
+legacy leaderboards are separate because the dungeon rules are different.
+
+See also: help eternal, help boss_tiers
+
+Reward Chests
+-------------
+Every leader or boss kill leaves a personal reward chest for each member
+present in the run. Chests are name-locked, fade after ten minutes, and
+do not follow you through the portal - open yours before advancing.
+
+Chest quality is earned, not farmed:
+
+  - The FIRST chest of each reward tier you earn per real day is GILDED:
+    full rolls, a guaranteed rare roll, and the only grade that can ever
+    hold a permanent relic.
+  - The next two chests of that tier the same day are PLAIN (fewer
+    rolls, no guarantees).
+  - After that, and whenever you fight roughly ten or more floors below
+    your personal best, chests dim to SHARD CACHES: a small Eternal
+    Shard payout, no premium treasure, and a modest chance at crafting
+    material.
+
+Each member's chest is scaled to their own record, so carrying a
+lower-floor friend gives them real chests while your own reflect your
+personal best. Chest contents include consumables, ember crafting
+materials and recipe cards for the professions, timed emberforged gear
+that burns away when its ember is spent, and - very rarely, from deep
+gilded chests - permanent relics that the dungeon yields at most once
+per adventurer in their lifetime.
+
+Crafting supply is rolled separately from premium treasure. Gilded chests
+guarantee two materials, plain chests guarantee one, and shard caches may
+still yield one. Recipe cards only appear in gilded or plain chests and
+match the effective reward tier: Emberdraught at low tiers, Phoenix Tonic
+through the middle tiers, and Emberforged Whetstone at the deepest tier.
+Each eligible chest without a card advances that tier's pity counter; once
+five misses are shown, the next eligible chest guarantees a card. Use
+'eternal status' to inspect those counters.
+
+The shard shop ('eternal shop') also carries permanent items at fixed
+prices, likewise one per adventurer, ever. It also sells persistent,
+tradeable ember materials and recipe cards at fixed prices so shard caches
+remain a deterministic path into Eternal crafting. 'eternal status' shows
+how many premium chests of each tier you have earned today.

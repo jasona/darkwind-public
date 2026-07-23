@@ -1,0 +1,18 @@
+|YKOWhen you are killed, you become a ghost and lose many of the
+abilities you had while alive. Your spirit is whisked away to the
+church of the land you died in, and your corpse - holding all of
+your belongings and gold - travels with you in your inventory.
+
+If you are level 5 or under, death carries no penalty at all.
+Above level 5, death costs you 10% of your experience on hand.
+Nothing else is lost: no stats, no levels.
+
+To return to life, |YKB<pray>|YKO at the church (the experience loss
+stands), or have another player resurrect you with a guild
+ability, which restores the lost experience. Ghosts cannot pick
+things up, so resurrect first, then unpack your corpse.
+
+If you are somehow trapped as a ghost away from a church, the
+|YKBgocot|YKO command will carry you to safety.
+
+|WKBSee also: |YKBdeath, ghostemotes, deathavengement

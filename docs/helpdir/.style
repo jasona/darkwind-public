@@ -1,0 +1,42 @@
+# Darkwind help topic style guide
+#
+# Every topic is a plain-text file at /public/docs/helpdir/<section>/<topic>.
+# The filename IS the topic name players type. Sections are defined in
+# /secure/include/help.h (HELP_SECTIONS); "help list <section>" lists a
+# directory, so putting the file in the right section is the whole job of
+# categorization. After adding or editing files run "helpadmin reindex".
+#
+# Layout template (matches the basics/ house style):
+#
+#   |WKBSyntax: |YKB<command> <args>|WKB          <- only for command topics
+#   |WKO=====================================================================
+#   |YKO<body text, wrapped at 75 columns. Use |YKB...|YKO to highlight
+#   commands and keywords inline, |CKB...|YKO for topic names. End the
+#   file with color reset.|XX0
+#
+#   |WKBSee also: |YKBtopic, topic, topic|XX0
+#
+# Rules:
+#   - ASCII only (non-ASCII has crashed the server).
+#   - 75-column wrap; the divider line is 69 "=" characters.
+#   - Color codes: |WKB headings, |WKO dividers, |YKO body, |YKB commands,
+#     |CKB topic references. Always terminate the file with |XX0.
+#   - Write for players, not builders: what it does, how to use it, what
+#     it costs, where to find it. Builder docs belong in /public/docs/wizard or
+#     /public/docs/guild.
+#   - Concepts live in topic files; command usage lives in the command's
+#     command_help(). Do not duplicate a topic inside command_help --
+#     keep usage there and end with: See also: |CKBhelp <topic>|XX0.
+#
+# Optional machine-readable footer (parsed by help_d, stripped before
+# display; must be the LAST lines of the file):
+#
+#   # keywords: extra, search, words
+#   # alias: othername, oldname
+#   # see: related_topic, other_topic
+#
+#   - "keywords" feed the body search ("help <word>" fallback).
+#   - "alias" makes "help <othername>" open this topic (the hand-curated
+#     /public/docs/helpdir/.aliases file wins on conflicts).
+#   - "see" is machine-readable See-Also metadata for future use; keep the
+#     human-visible "See also:" line in the body regardless.

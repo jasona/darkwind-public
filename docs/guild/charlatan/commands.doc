@@ -1,0 +1,41 @@
+|CKBThe Charlatan's Working Ledger|000
+
+Information, reputation, and gossip:
+
+  charlhelp [topic|command]      The little black book; alias: chelp
+  chskills [available]           Your trick ledger; alias: cskills
+  gscore charlatan               Rank, guild XP, roads, and professions
+  croads train <road>            Invest one available road point
+  schemes [list|info <name>]      Inspect Rank 35+ scheme notes
+  schemes learn <name>            Pay Drina to learn an open scheme
+  schemes activate <name>         Fill an empty active slot at Drina
+  schemes swap <old> for <new>    Pay Drina to rewrite the active loadout
+  charlatan <message>            Guild line; alias: cchat
+  chist [lines]                   Recent Confidence gossip
+  cwho                            Visible Charlatans; alias: charlatans
+
+Misdirection -- for marks who insist on paying attention:
+
+  confuse [foe]
+  suckerpunch [foe]              Alias: spunch
+  distract [foe]
+  avoid
+
+Volatility -- chemistry with an exit strategy:
+
+  brewacid
+  brewelement <fire|ice|lightning>  Alias: elementpotion
+  cookash <grey|red|blue|mixed>  Alias: ccook
+  concoct <red salt|blue mixer|cutting bitters>
+                                  Alias: cmix
+
+Contraband -- improvements without warranties:
+
+  loadweapon <weapon> with <dazzling|oiled|silvered|flaming|frozen|poisoned|shocking>
+  stretchpoison <poison> onto <weapon>
+  pocketsand [foe]
+
+The caravan shops also sell ordinary throwing darts. Carry one and use
+'throw <target>'. They are sharp, balanced, and entirely innocent until used.
+
+Use 'charlhelp <command>' or 'chskills' for costs and requirements.

@@ -1,0 +1,33 @@
+|WKBDeath Avengement
+|CKO---------------------------------------------------------------------
+
+|YKODeath avengement is the process by which a player avenges another
+player's recent death, collecting a bounty and restoring the
+victim's lost experience.
+
+When you die, you may ask another player to avenge you. The bounty
+- experience and coins - scales with the toughness of whatever
+killed you: mightier killers pay far better. If the avenger
+succeeds, they collect the bounty, and your death penalty (10% of
+your experience on hand) is restored to you, unless a resurrection
+already refunded it.
+
+The rules of the system:
+
+  |BKB* |GKBFrom the time of death, the avenged has 30 real time minutes to
+    find an avenger, and for that avenger to track and kill the target
+    mob.
+
+  |BKB* |GKBNeither the avengee or the avenger may log off during that time,
+    else that avenge is forever lost.
+
+  |BKB* |GKBAn avenged player can only have one avenger per death.
+
+  |BKB* |GKBAn avenger can only attempt to avenge one player at a time.
+
+  |BKB* |GKBIf the original killing mob is killed, the avengement is cancelled.
+    In the case of PKs, if the killing player logs off, the avengement
+    is cancelled.
+
+
+|YKOSee also: |YKBaskavenge, avengeinfo

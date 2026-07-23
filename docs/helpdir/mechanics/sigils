@@ -1,0 +1,34 @@
+|WKO=====================================================================
+ |CKBSigils
+|WKO=====================================================================
+|YKOSigils are arcane markings worked into rare equipment.
+Each marking carries a level, and while you wield, wear, or internally bind the item its
+levels count toward your total for that sigil. Marked pieces work as a
+set: equip several and their levels add together, up to the sigil's
+maximum useful level.
+
+Sigils are part of an item as it is found - you cannot inscribe them
+yourself. Examine a piece of equipment to see any markings it bears,
+each listed with its level and that sigil's maximum.
+
+|WKBThe known sigils:|YKO
+  Critical Strike  (max 5)  Increases your chance to land critical
+                            hits.
+  Evade            (max 5)  Increases your chance to evade hits.
+  Ruthless         (max 7)  Extra combat damage to enemies based on
+                            their missing health; higher levels work
+                            against healthier enemies and hit harder.
+
+Type |YKBsigils|YKO for a table of your active sigils: each combined
+level against its maximum, and which piece of equipment supplies it.
+The columns are head (H), cloak (C), shoulders (Sh), aura (A), neck
+(N1/N2), body (B), legs (L), shield (S), feet (F), rings (R1/R2),
+gloves (G), main and secondary weapons (MW/SW), internal equipment (I),
+and other sources (O).
+A total shown in bright color has reached that sigil's maximum.
+
+|WKBSee also: |YKBhelp equip, help uniques|XX0
+
+# keywords: markings, set bonus, critical strike, evade, ruthless
+# alias: sigil
+# see: equip, uniques

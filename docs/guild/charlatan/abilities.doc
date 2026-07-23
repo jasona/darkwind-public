@@ -1,0 +1,67 @@
+|CKBAn Inventory of Tricks, Devices, and Plausible Denials|000
+
+Use 'chskills' for the full ledger: spell-point cost, recovery time, Rank,
+road, and trade requirements. 'chskills available' shows only the tricks you
+can pull off right now.
+
+At Rank 35 and every five Ranks through 100, Drina opens another scheme.
+Schemes are horizontal modifications to these tricks rather than new road
+ranks. Use 'schemes' to inspect the catalogue and active cloak notes.
+
+Misdirection
+
+  confuse [foe]
+    Talk, feint, and insist until a foe's attention goes somewhere harmless.
+    Available from Rank 1; deeper Misdirection makes the lie stick.
+
+  suckerpunch [foe]
+    Available from Rank 1. Cash in an opening with one profoundly unfair
+    melee hit. Misdirection adds force and eventually brings a second weapon
+    into the argument.
+
+  distract [foe]
+    Rank 3, Misdirection 2. Throw your voice somewhere inconvenient. With
+    enough practice, a foe may briefly forget whom they were fighting.
+
+  avoid
+    Rank 4, Misdirection 3. Revive the Confidence's fancy footwork and make
+    yourself substantially harder to hit for a short, buff-visible window.
+
+Volatility
+
+  brewacid
+    Rank 2, Volatility 1, Alchemy 25. Prepare the owner-bound base flask used
+    by Cook Ash. It can also be thrown by Charlatans with poor impulse control.
+
+  brewelement <fire|ice|lightning>
+    Rank 3, Volatility 2, Alchemy 75. Bottle some deeply uncooperative weather
+    for throwing. Every successful throw splashes part of the blast back.
+
+  cookash <grey|red|blue|mixed>
+    Rank 2, Volatility 1. Empty every relevant ash from a corpse burner into
+    an acid flask. Quaffing grants an ash-specific combat rush shown in buffs.
+
+  concoct <red salt|blue mixer|cutting bitters>
+    Rank 2, Volatility 2. Prepare a seasoning for carried food or drink.
+    Benefits vary; fine print is compulsory.
+
+Contraband
+
+  loadweapon <weapon> with <dazzling|oiled|silvered|flaming|frozen|poisoned|shocking>
+    Rank 2. Fit a temporary and dubiously safe treatment to an unwielded,
+    ordinary weapon. Better tricks require deeper Contraband and trade skill.
+
+  stretchpoison <poison> onto <weapon>
+    Rank 3, Contraband 2, Alchemy 100. Make one proper poison last longer at
+    reduced strength. The poison always gets one vote about your technique.
+
+  pocketsand [foe]
+    Rank 4, Contraband 2. Attempt to blind a nearby foe using tactical grit
+    stored in a pocket no tailor admits sewing.
+
+Caravan stock
+
+  Ordinary throwing darts remain for sale and use 'throw <target>'. Acid and
+  elemental flasks are now brewed abilities rather than shop stock. The old
+  poison-dart recipe, flying potion, smoke packet, and special bottle belonged
+  to the closed Alchemist/Illusionist ledgers and are no longer sold.

@@ -1,0 +1,54 @@
+Cyberware.
+
+Cyberware is machinery grafted into your own body. An installed implant
+grants its bonuses, such as stats, resistances, or chance-based proc
+effects, for as long as it stays inside you.
+
+Every implant occupies one or more body locations: eyes, ears, brain,
+skull, jaw, throat, neck, spine, heart, lungs, torso, skin, shoulders,
+arms, hands, legs, and feet. Only one implant may occupy a location.
+
+Implants also strain the body. Your strain limit starts at 6 and grows
+with your level: one point per 10 levels, plus larger bonuses at levels
+50, 100, 150, 200, and 250. Souls remorted through cyber-touched
+origins gain 2 extra strain each, to a maximum of 10. You cannot
+install an implant that would push your total strain past your limit,
+and an implant may demand a minimum level or stranger things before
+your body accepts it.
+
+Commands:
+
+cyberware
+  Show your installed implants, occupied body locations, and strain.
+  The command implants does the same thing.
+
+cyberscan <implant>
+  Inspect an implant's type, grade, body locations, strain, visibility,
+  and proc count before installing it.
+
+install <implant>
+  Have a ripperdoc install an implant you are carrying.
+
+extract <implant or location>
+uninstall <implant or location>
+  Have a ripperdoc remove an installed implant, returning it to your
+  inventory.
+
+Installation and extraction require a staffed ripperdoc clinic, and the
+ripperdoc will not operate while you are fighting. The Forbidden Replacement
+Table in Nethrys Undercity's Ripperdoc Quarter is a formal clinic. Cyberware
+status and implant scans remain available anywhere. Use "engage ripperdoc"
+at the clinic to review hardware, see the exact service fee, and confirm the
+procedure.
+
+Installation costs 10,000 coins per point of implant strain, with a 10,000
+coin minimum. Extraction costs 5,000 coins per strain, with a 5,000 coin
+minimum.
+
+Installed implants cannot be dropped and stay with you across sessions.
+Some implants are outwardly visible and anyone who looks at you will
+see them; hidden ones stay your secret. Procs trigger on their own in
+combat: on your hits, when you take damage, when you are badly hurt, or
+when you make a kill, each with its own chance and cooldown.
+
+See also: help effects, help equip.

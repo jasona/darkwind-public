@@ -1,0 +1,16 @@
+                          Forestry
+
+Forestry gathers construction wood from marked timber stands in the
+Kingswood. Buy a forestry axe in the profession general store, find a visible
+harvestable stand, and use:
+
+  chop tree
+
+The stand is exhausted after a successful harvest and returns when its virtual
+room resets. Forestry skill increases yield and can produce fine, superior, or
+masterwork oak, ash, and pine timber. Timber is saved automatically rather
+than carried as a normal inventory object.
+
+  reagents wood       Show saved timber, planks, and framing bundles.
+  carpentry list      Show timber refinement and crafting plans.
+  help carpentry      Explain refinement, furniture, and construction supply.

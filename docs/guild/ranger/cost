@@ -1,0 +1,12 @@
+Ranger Help for: cost
+=====================
+
+SYNTAX:      cost (or: tally)
+USAGE:       Any wilderness terrain.
+
+SUMMARY:
+Shows character level and stat advancement costs, plus combat-earned Ranger
+XP progress and the slots granted by the next Ranger guild level.
+
+=============================================================================
+SEE ALSO: improve, advancement, glevels

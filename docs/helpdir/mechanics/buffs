@@ -1,0 +1,21 @@
+
+|WKBUsage: |YKB'buffs'|YKO or |YKB'clearbuff'
+
+    buffs     |WKB- |YKOLists your active buffs.
+                * Not all buffs are visible to the system.
+
+    |YKBclearbuff |WKB- |YKOAllows you to remove one of your current buffs.
+                The |YKB' clearbuff all' |YKOoption removes all buffs.
+
+    Debuffs, such as curses, hexes, or lingering poisons, appear under
+    their own header in |YKB'buffs'|YKO. They cannot be removed with
+    |YKB'clearbuff'|YKO. Debuffs expire on their own, or via cures and
+    dispels designed for them. Wizards may use |YKB'dispelall'|YKO for
+    stuck debuffs.
+
+    An active parasite appears at the end of |YKB'buffs'|YKO with its real
+    remaining online time and starvation state. Parasites are not normal
+    buffs and cannot be removed with |YKB'clearbuff'|YKO. Use
+    |YKB'parasite'|YKO for full details or |YKB'purge parasite'|YKO to remove one.
+
+|WKBSee also: |YKBhelp effects|XX0

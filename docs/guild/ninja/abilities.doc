@@ -1,0 +1,16 @@
+Skills and Abilities
+Ninja abilities unlock at their listed <guild level> and begin at 70%
+reliability. A failed reliability roll costs one fifth of the ability's
+spell-point cost, but does not consume its item, start its cooldown, or add
+a combo piece.
+
+Ninja rank is separate from guild level. Every rank after rank 1 earns one
+training session. Use <practice> to spend a session and improve one ability
+by 5%, up to 100%. Rank costs 250 guild XP (GXP) each time. Valid skill
+attempts, completed combos, and qualifying combat kills award GXP. An NPC ten
+or more levels below you is too weak to grant battle GXP. Use <nskills> to
+review rank, GXP, sessions, marks, and reliability.
+
+Many offensive techniques also add a piece to the Ninja combo system.
+When enough recent pieces are present, the wraps may release a special
+combat sequence. See <ninhelp combo> for details.

@@ -1,0 +1,137 @@
+Syntax: homestead [return|status|survey|map|upgrades|help]
+
+Homesteads are the foundation for future player-built homes, crafted rooms,
+and shared kingdom spaces. The kingdom commons is meant to be explored in
+character: speak aloud near the surveyor, clerk, and foreman, and they will
+answer what they understand.
+
+Current commands:
+
+  homestead          Travel to the kingdom commons.
+  homestead return   Return to the room remembered when you entered.
+  homestead status   Show your current homestead state.
+  homestead survey   Review what is currently available.
+  homestead map      Show the indoor floor plan and room connections.
+  homestead upgrades Show larger home costs, build times, and room limits.
+  homestead visit <player>
+                     Visit another player's public or invited plot.
+  homestead public   Let anyone visit your plot.
+  homestead private  Restrict visits to yourself and invited players.
+  homestead invite <player>
+                     Invite a player to visit your private plot.
+  homestead uninvite <player>
+                     Remove a plot invitation.
+
+Useful things to try in the commons:
+
+  say I want land
+  say how much does a plot cost
+  say I accept the charter
+  say take me to my plot
+  say what should I build first
+  read charter
+  study map
+  read ledger
+  workorders
+  workorder <number>
+
+A frontier charter costs 1,000,000 coins. The clerk draws from clear bank
+funds first, then coin on hand. The charter alone grants no land: walk out
+of the commons into the Kingdom Frontier -- open plains, the Charter
+Fields, the Kingswood, or the Greywall foothills -- and use 'homestead
+claim' standing on the exact spot you want. First come, first served; one
+plot to a name. Your claim appears as a real structure on the land that
+anyone passing can see, and it grows with each build tier. Roads, the
+commons, mine gates, bridges, and the Reedmurk cannot be claimed. The
+whole frontier is a safe zone. Choose with the future in mind: forest
+means timber, riverside means fishing, foothills sit near the mines.
+
+Visible profession nodes are scattered through suitable frontier terrain:
+mineral-streaked outcrops in the Greywall foothills, wild herb patches in the
+Kingswood and Reedmurk, harvestable timber stands in the Kingswood, and
+promising fishing positions beside rivers and lakes. Use the normal profession
+tools and commands: 'mine ore', 'gather herbs', 'chop tree', and fishing poles.
+Visible nodes provide an extra yield or quality
+bonus, then a successful harvest or catch exhausts the opportunity until the
+virtual room's normal reset restores it. Frontier terrain has its own weighted
+material tables: surface foothills favor practical copper, tin, iron, and lead,
+while each mine gate previews the deposits found deeper inside. The work-order
+board uses the same rotating contracts and rewards as the profession halls.
+
+Three working mines open through the eastern Greywall. Ironroot lies at the
+northern gate and favors iron and lead. Crownshaft meets the east road and
+favors silver and gold. Blackglass lies at the southern gate and carries rare
+mithril, platinum, and adamantite deposits. Mineable rooms contain a visible
+vein. A successful 'mine ore' exhausts that vein until the room resets.
+
+Brant explains starter work, but construction happens on your own plot:
+
+  build camp marker    25,000 coins, about 1 minute
+  build lean-to        75,000 coins, about 5 minutes
+  build foundation    250,000 coins, about 15 minutes
+  build hut           750,000 coins, about 45 minutes
+  build status        show the current project and its remaining build time
+
+Build timers are saved by the homestead daemon. They continue across logout,
+reboot, or crash because the completion time is stored with your plot.
+
+The finished hut is the first real home. It begins with one interior room
+and may contain no more than four indoor rooms total. 'enter hut' opens the
+main room with:
+
+  - A hearth that speeds the owner's healing while resting inside.
+  - A banded chest: 'store <item>', 'retrieve <item>', and 'chest' to list.
+    Stored goods survive relog and reboot exactly as you left them, using
+    the same preservation as saved login equipment - crafted and special
+    items keep their qualities. The chest refuses uniques, cursed or
+    broken goods, coins, and anything too fleeting to survive storage.
+
+Items left lying on the ground of a plot do NOT persist; use the chest.
+
+Expanding a home:
+
+  build room          Show current rooms, capacity, price, time, and openings.
+  build room north    Add a room north of the room where you are standing.
+  build room south    Add a room south of the current room.
+  build room east     Add a room east of the current room.
+  build room west     Add a room west of the current room.
+  homestead map       Draw the saved floor plan and list room connections.
+
+Rooms are connected when their saved build timer completes. Construction
+creates the outgoing passage and its opposite together. Existing passages,
+occupied floor-plan coordinates, active jobs, and the home's room limit block
+new work before payment. Room timers persist across logout and reboot.
+
+Larger homes must be built in order: cabin, cottage, house, manor, keep, then
+castle. You must build every room allowed by the current home before starting
+the next upgrade. Existing rooms, links, custom descriptions, the hearth, and
+chest all carry forward into the larger structure. Use 'homestead upgrades'
+for exact prices, times, capacities, and Framing Bundle requirements. Mill
+Forestry timber and craft bundles with 'carpentry', then 'deliver framing
+bundles' to Brant in the commons. Delivered supplies persist with the plot and
+are consumed when the upgrade begins.
+
+Furnishing a home:
+
+  carpentry craft [quality] <oak|ash|pine> <plan>
+  place <furniture>
+  homestead furnishings
+  remove furniture <id|type>
+
+Each room holds up to eight crafted furnishings. Placed furniture is saved as
+part of the room and returns across logout and reboot.
+
+Once you are standing on your plot, use 'commons' or 'return to commons' to
+walk the survey road back.
+
+Shaping your plot:
+
+  homestead title <room title>
+  homestead describe <room description>
+  homestead look add <noun> = <description>
+  homestead look remove <noun>
+
+These commands work while you are standing inside your own homestead. Text is
+bounded and saved by the homestead daemon. Room shaping is descriptive only:
+it lets you shape what visitors read and inspect, but it does not run custom
+scripts or create arbitrary commands.

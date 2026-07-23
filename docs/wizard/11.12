@@ -1,0 +1,91 @@
+Writing Guild Emotes For Rooms And Channels
+============================================
+
+Guild emotes should use EMOTE_D's guild-scoped emote infrastructure when they
+are ordinary social actions. That gives them the same room, targeting,
+perspective, channel, preview, search, and random-emote support as global
+emotes while restricting use to active members of one guild.
+
+Do not implement an ordinary guild social as a command under
+/cmds/guilds/<guild>/emotes/. A standalone command can still be appropriate
+when the action moves characters, changes game state, or performs other
+complex behavior, but the generic channel-emote parser cannot invoke it.
+
+
+Static Guild Emotes
+===================
+
+Most guild emotes need no LPC object. Register each supported rule directly:
+
+  addemote -guild Mage motion LIV
+  New message: $N $vmotion to $t to stand still -- toys are coming!
+
+The addemote preview shows the actor, target, and room perspectives before the
+definition is accepted. Repeat the command for each additional rule.
+
+The guild argument is matched case-insensitively against GUILD_NAMES. The
+emote name is lower-cased and may contain letters, numbers, underscores, and
+hyphens, but must start with a letter. New guild-emote names cannot collide
+with global emotes, another guild's emotes, or available commands.
+
+
+Variable Guild Emotes
+=====================
+
+Use a variable emote only when get_emote() must calculate the Message String.
+Place the object in the guild's lower-case directory under /cmds/soul/:
+
+  /cmds/soul/mage/motion.c
+
+  string get_emote(string sArg, object *aoWho) {
+    if (sArg == "LIV")
+      return "$N $vmotion to $t to stand still -- toys are coming!\n";
+    return "";
+  }
+
+Register the scoped rule, then use a guild redirect as its Message String:
+
+  addemote -guild Mage motion LIV
+  New message: ->Guild_Mage_motion
+
+The guild token in the redirect must match the configured guild name. The
+object name follows the final underscore and resolves beneath the guild's
+directory in /cmds/soul/.
+
+
+Inspection And Removal
+======================
+
+  showemote -guild Mage motion
+  rmemote -guild Mage motion LIV
+  rmemote -guild Mage motion
+
+The first removal deletes one rule. The second deletes the entire guild emote.
+Omitting -guild inspects or changes a global definition instead.
+
+
+Player Discovery And Access
+===========================
+
+Players can use:
+
+  feelings guild [<guild>] [<prefix>]
+  semote <emote>
+  emoteapropos guild [<guild>] <text>
+  random [<player>]
+
+Guild-channel commands that support colon souls can invoke the same emotes,
+for example "samchat :jackin". Access is checked every time: leaving the guild
+or marking that guild inactive immediately removes access. Players cannot list
+or preview definitions belonging to inaccessible guilds.
+
+
+Persistence
+===========
+
+Guild definitions are saved with EMOTE_D in /secure/savedir/soul and survive
+daemon reloads and game restarts. That runtime save is environment-local, so
+add or migrate the definitions separately in each environment where they are
+required.
+
+See also: help guild emotes, help addemote, help showemote, help rmemote

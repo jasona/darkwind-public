@@ -1,0 +1,38 @@
+# Help topic aliases: one "alias = target" per line. Targets are either
+# "section/topic" (exact) or a bare topic name (looked up across sections).
+# Parsed by /secure/daemons/help_d; reload with "helpadmin reindex".
+# Prefer adding a "# alias:" footer inside a topic file for aliases that
+# belong to one topic; use this file for cross-cutting or legacy names.
+
+# Stat abbreviations (formerly hardcoded in the help command).
+str = stats/strength
+dex = stats/dexterity
+con = stats/constitution
+int = stats/intelligence
+wis = stats/wisdom
+chr = stats/charisma
+cha = stats/charisma
+
+# Legacy names preserved from the retired oops/ typo layer.
+avenge = avengement/avengement
+clans_basics = clans/basics
+clans_cmds = clans/cmds
+clans_war = clans/war
+guildcoders = guilds/coders
+guildlist = guilds/guilds
+guild emotes = guilds/emotes
+guild_emotes = guilds/emotes
+guildemotes = guilds/emotes
+duergar = race/rift_duergar
+emote = communication/emotes
+spell = mechanics/spells
+races = race/races
+advertising = rules/advertise
+darkwinder = race/darkwinder
+
+# Common synonyms.
+# (the emote-verb list lives at communication/socials; "socials" resolves
+# directly, and the name no longer shadows the "actions" command's help)
+levelling = leveling/leveling
+remorting = leveling/remort
+dying = basics/death
