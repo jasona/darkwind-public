@@ -4,7 +4,7 @@ Use 'chskills' for the full ledger: spell-point cost, recovery time, Rank,
 road, and trade requirements. 'chskills available' shows only the tricks you
 can pull off right now.
 
-At Rank 35 and every five Ranks through 100, Drina opens another scheme.
+At Rank 35 and every five Ranks through 105, Drina opens another scheme.
 Schemes are horizontal modifications to these tricks rather than new road
 ranks. Use 'schemes' to inspect the catalogue and active cloak notes.
 
@@ -47,9 +47,14 @@ Volatility
 
 Contraband
 
-  loadweapon <weapon> with <dazzling|oiled|silvered|flaming|frozen|poisoned|shocking>
+  loadweapon <weapon> with <corrosive|dazzling|oiled|silvered|flaming|frozen|poisoned|shocking>
     Rank 2. Fit a temporary and dubiously safe treatment to an unwielded,
     ordinary weapon. Better tricks require deeper Contraband and trade skill.
+
+  cdip <dart|darts> in <acid flask|element flask|poison>
+    Rank 2, Contraband 1, Alchemy 25. Spend one real dose to coat up to ten
+    clean caravan darts. Liquid Assets removes the limit. Acid can Sunder;
+    other liquids retain their nature.
 
   stretchpoison <poison> onto <weapon>
     Rank 3, Contraband 2, Alchemy 100. Make one proper poison last longer at
@@ -62,6 +67,6 @@ Contraband
 Caravan stock
 
   Ordinary throwing darts remain for sale and use 'throw <target>'. Acid and
-  elemental flasks are now brewed abilities rather than shop stock. The old
-  poison-dart recipe, flying potion, smoke packet, and special bottle belonged
-  to the closed Alchemist/Illusionist ledgers and are no longer sold.
+  elemental flasks are brewed rather than shop stock. Cdip restores the useful
+  part of the old poison-dart trick by requiring a real flask or prepared
+  poison. Flying potions, smoke packets, and special bottles remain retired.

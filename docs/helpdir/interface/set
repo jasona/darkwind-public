@@ -70,6 +70,10 @@ OPTIONS
   |YKBcombatbrief-short <off|on>|YK0
     Uses shorter combat messages.
 
+  |YKBcombatbrief-visual <off|on>|YK0
+    Moves routine combat swings into a ready Darkflow Combat pane. Normal
+    combat text continues whenever a compatible pane is unavailable.
+
   |YKBemail <email@domain.com>|YK0
     Sets your current e-mail address.
 

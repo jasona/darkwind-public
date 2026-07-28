@@ -28,8 +28,15 @@ armour-piercing attacks halve the reliable reduction.
 | `monitor` or `mon` | Toggle HP/SP monitoring |
 | `set monitor bar` | Show HP/SP as bars |
 | `combatbrief` | Adjust combat text |
+| `combatbrief visual` | Toggle Darkflow's visual Combat pane |
 
 Use monitoring before you need it. It is much easier to leave a bad fight when you see your health falling.
+
+Visual combat replaces routine weapon-swing lines only while a compatible
+Darkflow Combat pane is visible and ready. Ability activations, warnings,
+fleeing, death, rewards, and other important prose remain in the terminal.
+If the pane is closed, collapsed, reconnecting, or unsupported, normal combat
+text resumes automatically.
 
 ## Wimpy
 

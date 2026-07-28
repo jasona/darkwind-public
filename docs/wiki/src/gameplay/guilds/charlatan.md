@@ -24,11 +24,11 @@ rather than gating the guild's first direct attack.
 | --- | --- | --- |
 | Misdirection | Control, escape, illusion, social pressure | Improves `confuse` and `suckerpunch`; `distract` at road 2; `avoid` at road 3 |
 | Volatility | Dangerous mixtures and bottled weather | `brewacid` and `cookash` at road 1; `brewelement` and `concoct` at road 2 |
-| Contraband | Poisons, weapon tricks, rigged objects | `loadweapon` at roads 1-4; `stretchpoison` and `pocketsand` at 2 |
+| Contraband | Poisons, weapon tricks, rigged objects | `loadweapon` at roads 1-4; `cdip` at 1; `stretchpoison` and `pocketsand` at 2 |
 
 ## Advanced Schemes
 
-Beginning at Rank 35, every fifth Rank through 100 opens one scheme in Drina's
+Beginning at Rank 35, every fifth Rank through 105 opens one scheme in Drina's
 ledger. Learning permanently records the scheme in the Charlatan cloak and
 costs 1,000 gold per required Rank. A learned scheme can fill an empty active
 slot for free; replacing an occupied slot costs half the incoming scheme's
@@ -36,8 +36,8 @@ Rank in thousands of gold, with a 25,000 minimum. Drina must be present for
 learning and loadout changes.
 
 Charlatans have one active scheme slot initially, two at Rank 50, three at
-Rank 100, and another every fifty Ranks thereafter. All fourteen schemes can
-be learned by Rank 100, but only three can be active then. `schemes` shows the
+Rank 100, and another every fifty Ranks thereafter. All fifteen schemes can
+be learned by Rank 105, but only three can be active then. `schemes` shows the
 catalogue, permanent cloak notes, active loadout, effects, and prices.
 
 Learned schemes and the active loadout remain scribbled in the cloak. Older
@@ -60,6 +60,7 @@ points remain intact.
 | 90 | False Bottom | Volatility | Carry two acid and two elemental flasks, each brewed at one lower potency |
 | 95 | Double Bluff | Misdirection | Distract applies Exposed instead of attempting to end the fight |
 | 100 | The Long Con | Misdirection | Opening-powered Sucker Punch trades half its bonus burst for eight seconds of Exposed |
+| 105 | Liquid Assets | Contraband | `cdip` coats every clean dart carried or stored in the cloak instead of stopping at ten |
 
 ## Profession Gates
 
@@ -78,6 +79,7 @@ values through `gscore charlatan`.
 | Silvered load | Alchemy 125 and Smithing 50 | Uses the lower effective discipline and one Silver Bar |
 | Shocking load | Alchemy 150 | Treatment strength and duration |
 | `stretchpoison` | Alchemy 100 | Dose strength and duration |
+| `cdip` | Alchemy 25 | Coating potency; normally consumes one dose for up to ten clean darts |
 
 Guild actions do not award profession skill directly. Players advance the
 professions through their owning systems, preserving profession rooms,
@@ -151,22 +153,28 @@ mix two weak toxins, or trigger a secondary distraction. They do not need a
 parallel poison catalog.
 
 The caravan shops still sell ordinary throwing darts, whose item-owned
-`throw <target>` action remains live. The old poison-dart coating skill,
-pegasus-wing potion recipe, smoke packets, and special potion bottles belonged
-to the retired Alchemy/Illusion focus tree and are no longer shop stock.
+`throw <target>` action remains live. `cdip` consumes a fresh Charlatan acid
+or elemental flask, or an existing prepared poison, to coat up to ten clean
+darts. The Rank 105 Liquid Assets scheme removes that limit. Acid darts can
+Sunder; fire, ice, lightning, and poison retain their own delivery effects.
+The pegasus-wing recipe, smoke packets, and special potion bottles remain
+retired.
 
 Every loaded weapon has a drawback: noise, brittleness, self-exposure, a
 delayed crash, or a chance to mark the user. Unique gear remains off limits.
 The cloak is good at temporary, questionable improvements—not reputable
 craftsmanship.
 
-`loadweapon` gives a carried, unwielded, non-unique weapon a temporary razzled,
-oiled, silvered, flaming, frozen, poisoned, or shocking treatment.
-Dazzling opens at Contraband 1/Alchemy 50; oiled and poisoned at Contraband 2
-with Alchemy 70/100; flaming and frozen at Contraband 3/Alchemy 100; silvered
+`loadweapon` gives a carried, unwielded, non-unique weapon a temporary
+corrosive, razzled, oiled, silvered, flaming, frozen, poisoned, or shocking
+treatment. Dazzling opens at Contraband 1/Alchemy 50; corrosive, oiled, and
+poisoned at Contraband 2 with Alchemy 75/70/100; flaming and frozen at
+Contraband 3/Alchemy 100; silvered
 at Contraband 4, Alchemy 125, Smithing 50, and one Silver Bar; shocking at
 Contraband 4/Alchemy 150. Each has installer-side fine print. `flash`, `oil`,
-and `quicksilver` remain parsing aliases. Serration was removed.
+`acid`, and `quicksilver` remain parsing aliases. Corrosive consumes one fresh
+acid flask and lowers weapon class by one while giving strikes acid damage
+that can Sunder. Serration was removed.
 
 Flaming strikes can leave a foe Burning, frozen strikes can leave one Chilled,
 and dazzling weapons have a very rare chance to steal a foe's train of thought.
@@ -212,6 +220,7 @@ Misdirection, the mark may briefly forget whom they were fighting at all.
 | `cookash` | Rank 2, Volatility 1, Alchemy 25+ | Converts all relevant ash into a timed combat rush |
 | `concoct` / `cmix` | Rank 2, Volatility 2, profession 50+ | Expiring food/drink additive |
 | `loadweapon` | Rank 2, Contraband 1+, profession 50+ | Temporary loaded treatment |
+| `cdip` / `cpoison` / `poisondart` | Rank 2, Contraband 1, Alchemy 25 | Consume one liquid dose to coat up to ten clean darts; Liquid Assets removes the cap |
 | `distract` | Rank 3, Misdirection 2 | Concentration control/disengage chance |
 | `stretchpoison` | Rank 3, Contraband 2, Alchemy 100 | Dilute an existing poison onto a weapon |
 | `avoid` | Rank 4, Misdirection 3 | Short buff-visible defensive footwork |

@@ -37,8 +37,12 @@ Autorefine is mutually exclusive with autosell.
 
     Carpentry works in the Kingdom Commons or inside a homestead. It mills
 timber into matching planks, crafts persistent placeable furniture, and makes
-Framing Bundles required for every home upgrade after the hut. Use 'carpentry
-list', 'reagents wood', 'help forestry', and 'help carpentry'.
+Framing Bundles required for every home upgrade after the hut. Species and
+quality must match through timber, planks, and the finished piece. Inside your
+own home, use 'place <furniture>', 'homestead furnishings', and 'remove
+furniture <id|type>'. Rooms hold eight persistent furnishings. Use 'carpentry
+list', 'reagents wood', 'help forestry', and 'help carpentry' for the complete
+workflow and plan skill requirements.
 
 Useful commands:
   professions

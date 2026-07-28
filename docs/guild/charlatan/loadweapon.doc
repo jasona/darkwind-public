@@ -1,6 +1,6 @@
 |CKBLoad Weapon: Improvements Made While You Wait Nervously|000
 
-Syntax: loadweapon <weapon> with <dazzling|oiled|silvered|flaming|frozen|poisoned|shocking>
+Syntax: loadweapon <weapon> with <corrosive|dazzling|oiled|silvered|flaming|frozen|poisoned|shocking>
 
 Treat a carried, unwielded, ordinary weapon. Unique pieces refuse the work,
 presumably on advice from better lawyers.
@@ -12,6 +12,11 @@ presumably on advice from better lawyers.
   Oiled
     Contraband 2, Alchemy 70. Makes the weapon markedly easier to place. The
     benefit takes hold as soon as the weapon is ready again.
+
+  Corrosive
+    Contraband 2, Alchemy 75, and one fresh acid flask. Acid strikes can
+    leave a living victim Sundered, but the treatment lowers weapon class by
+    one while it remains applied. "Acid" remains accepted when ordering.
 
   Poisoned
     Contraband 2, Alchemy 100. Adds a direct poison treatment. Stretch Poison

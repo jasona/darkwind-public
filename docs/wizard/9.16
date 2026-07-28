@@ -1,7 +1,7 @@
 Living Status Effects
 =====================
 
-Burning, Bleeding, Chilled, Freezing, and Exposed are stored directly on
+Burning, Bleeding, Chilled, Freezing, Exposed, and Sundered are stored directly on
 every living. Include <status_effects.h> and use the STATUS_* bit flags.
 The flags are saved compatibility contracts; never renumber or reuse one.
 
@@ -24,6 +24,7 @@ Prefer the named wrappers in normal content:
   target->apply_chilled(seconds, attacker);
   target->apply_freezing(seconds, attacker);
   target->apply_exposed(seconds, attacker);
+  target->apply_sundered(strength, seconds, attacker);
 
 All functions return 1 when the effect was accepted and 0 for invalid input.
 
@@ -69,6 +70,11 @@ Effect Contracts
   Exposed
     Adds 5 percentage points to incoming critical chance. It does not stack;
     reapplication keeps the longer duration.
+
+  Sundered X
+    Subtracts X from final armour class, after equipment and armour
+    specialization. It stacks to 3 and reapplication refreshes duration.
+    General acid damage has a bounded chance to apply one stack.
 
 Lifecycle And Display
 ---------------------

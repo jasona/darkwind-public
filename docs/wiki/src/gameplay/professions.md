@@ -53,11 +53,12 @@ Cybernetics currently uses the private Street Samurai fabrication table. Extract
 
 ## Forestry
 
-Forestry requires a forestry axe from the profession general store. Marked
-timber stands appear in the Kingswood. `chop tree` harvests weighted oak, ash,
-or pine timber and exhausts the visible stand until its virtual room resets.
-Higher Forestry skill improves yield and can produce fine, superior, or
-masterwork timber. Harvested wood is saved automatically in `reagents wood`.
+Forestry requires a forestry axe from the profession general store (`4e, n`
+from Center of Town). Marked timber stands appear in the Kingswood. `chop tree`
+harvests weighted oak, ash, or pine timber and exhausts the visible stand until
+its virtual room resets. Higher Forestry skill improves yield and can produce
+fine, superior, or masterwork timber. Harvested wood is saved automatically in
+`reagents wood` rather than carried as an inventory object.
 
 ## Carpentry
 
@@ -68,12 +69,30 @@ Carpentry works in the Kingdom Commons or inside a homestead.
 | `carpentry mill [quality] <species> [amount]` | Turn each timber into two matching planks |
 | `carpentry craft [quality] <species> <plan>` | Craft furniture or a Framing Bundle |
 | `homestead furnishings` | List furniture placed in the current room |
-| `place <furniture>` | Permanently place crafted furniture in your room |
+| `place <furniture>` | Place carried crafted furniture persistently in your room |
 | `remove furniture <id or type>` | Return placed furniture to inventory |
 
-Furniture plans include stools, chairs, tables, bookshelves, and beds. Species
-and quality carry into the result. A room can hold eight furnishings, and
-placed furniture persists with the homestead across logout and reboot.
+One timber becomes two matching planks. Species and quality must match through
+timber, planks, and the finished item.
+
+| Plan | Planks | Carpentry skill |
+| --- | ---: | ---: |
+| Stool | 2 | 0 |
+| Chair | 3 | 50 |
+| Table | 6 | 100 |
+| Bookshelf | 8 | 175 |
+| Bed | 10 | 250 |
+
+For a standard pine stool, use `carpentry mill pine 1`, `carpentry craft pine
+stool`, and then `place pine stool` inside your own room. Include the quality
+for improved timber, such as `carpentry mill fine pine 1` followed by
+`carpentry craft fine pine stool`.
+
+A room can hold eight furnishings, and placed furniture persists with the
+homestead across logout and reboot. `homestead furnishings` lists stable ids
+for removing duplicate types. The five plans above are physical furniture;
+use homestead custom looks, smells, and actions for descriptive decorations
+such as rugs, lanterns, paintings, blankets, and crockery.
 
 Framing Bundles cost five matching planks. Deliver them to Brant in the
 Kingdom Commons with `deliver framing bundles` or `deliver <amount> framing
