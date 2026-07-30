@@ -28,7 +28,7 @@ belong to [Classes](classes.md), not the guild roster.
 | Cales | Necro | Open |
 | Acer | [Ranger](guilds/ranger.md) | Open |
 | Dink | Bastet/Gurahl | Closed |
-| Cales | Charlatan | Closed |
+| Cales | [Charlatan](guilds/charlatan.md) | Open |
 | Cales | Blood Mage | Closed |
 | Cales | Deathknights | Closed |
 | Acer | [Street Samurai](guilds/street-samurai.md) | Open |

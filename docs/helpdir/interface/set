@@ -28,14 +28,20 @@ OPTIONS
     This uses the normal burn command and destroys anything left inside.
 
   |YKBautogold <off|on>|YK0
-    Automatically takes gold from NPC corpses you kill.
+    Automatically takes only gold from NPC corpses you kill. This is
+    redundant while autoloot is on.
+
+  |YKBautokill <off|on>|YK0
+    Makes a manually entered bare |YKBkill|YK0 target the first visible NPC.
+    It does not start combat automatically and can still choose an NPC you
+    did not intend to attack.
 
   |YKBautolevel <off|on>|YK0
     Controls whether non-remort characters automatically spend
     experience to gain levels.
 
   |YKBautoloot <off|on>|YK0
-    Automatically takes gettable loot from NPC corpses you kill.
+    Automatically takes gold and gettable loot from NPC corpses you kill.
 
   |YKBautorefine <off|on>|YK0
     Permanently converts ordinary refinery-eligible equipment from NPCs you
@@ -46,11 +52,11 @@ OPTIONS
     before deciding what to do with them.
 
   |YKBautosell <off|on>|YK0
-    Uses a carried corpse burner to sell ordinary weapons and armour from
-    NPC corpses directly to Taylor. His normal Charisma and reputation
-    pricing applies, followed by a 10 percent handling charge. Magical,
-    unique, limited, customized, scripted, and otherwise protected items
-    remain in the corpse. Enabling this disables autorefine.
+    Uses a carried corpse burner to sell ordinary loot from NPC corpses
+    directly to Taylor when his shop would buy it. His normal Charisma and
+    reputation pricing applies, followed by a 10 percent handling charge.
+    Magical, unique, limited, customized, scripted, and otherwise protected
+    items remain in the corpse. Enabling this disables autorefine.
 
   |YKBbrief <off|on>|YK0
     Sets the amount of room descriptions that are shown.

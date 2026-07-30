@@ -80,7 +80,14 @@ Useful habits:
 - Watch for special attacks
 - Retreat before the party collapses
 
-Boss kills often announce on the Events channel. A few bosses may explicitly opt into mocking much higher-level killers, but ordinary boss announcements do not shame players for being overlevel.
+Boss-kill announcements go to the Events channel. A character is eligible for
+an announcement only on their first kill of that particular boss during a
+reboot; repeat kills by that character remain quiet. A few bosses may
+explicitly opt into mocking much higher-level killers, but ordinary boss
+announcements do not shame players for being overlevel.
+
+If a boss later defeats a character who has already defeated that boss during
+the same reboot, the boss's Events-channel taunt remains quiet as well.
 
 ## Daily Rewards
 

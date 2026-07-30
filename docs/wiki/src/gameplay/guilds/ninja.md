@@ -4,6 +4,8 @@ Ninja are disciplined assassins built around stealth, disabling strikes,
 bare-handed combat, and short technique combos.
 
 Joining requires level 5 and at least 10 unmodified Dexterity.
+Ninja and Street Samurai are compatible multi-guild choices in either join
+order, subject to the normal level and membership limits.
 
 ## Progression
 

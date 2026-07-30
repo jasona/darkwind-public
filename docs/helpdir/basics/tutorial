@@ -6,27 +6,31 @@ without locking you into a separate training area.
 Commands:
   tutorial          Show your current tutorial step.
   tutorial status   Show whether the tutorial is active, skipped, or finished.
+  tutorial continue Begin the objective shown in the current lesson.
   tutorial hint     Repeat a concrete command suggestion.
   tutorial skip     Stop the tutorial for this character.
   tutorial restart  Start over if you skipped or did not finish.
-  engage nim        Talk with Nim and unlock the next lesson.
 
 The tutorial covers looking, examining, movement, inventory, the newbie
 channel, getting starter equipment from Erga, wearing and wielding gear,
 traveling to the newbie farm, basic combat safety, newbie combat commands,
 score, and accepting a first newbie quest.
 
-Nim follows you as a small NPC while the tutorial is active. Each lesson starts
-by engaging her. Use engage nim, choose that you understand the lesson, then run
-the command or action she gives you. When you complete it, Nim will ask you to
-engage her again for the next lesson.
+In Darkflow, a non-blocking tutorial hover opens automatically and stays with
+you while the tutorial is active. It shows the current objective, progress,
+hint, example command, and travel directions without taking focus from the
+command line. Continue begins each objective. Minimizing the hover does not
+skip the tutorial.
 
-Nim knows the way. During travel lessons she computes directions from
-wherever you are actually standing: tutorial hint always includes the
-current route, the engage menu offers "Which way do I go?", and if you walk
-the wrong way for a couple of rooms she calls out a correction. If you end
-up somewhere she cannot chart, ncot returns you to the Center of Town and
-she will re-plot from there.
+Other clients and screenreader mode receive the complete tutorial in terminal
+text. Use tutorial continue in place of the hover's Continue button. Every
+objective, hint, skip, and restart remains available from the command line.
+
+During travel lessons, directions are computed from wherever you are actually
+standing. Tutorial hint includes the current route. If you walk the wrong way
+for a couple of rooms, the text fallback calls out a correction. If no route can
+be charted, ncot returns you to the Center of Town so the route can be plotted
+again.
 
 Each lesson also names a help topic to read for the bigger picture, and the
 journey continues after the tutorial in help guide.

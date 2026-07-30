@@ -23,10 +23,18 @@ beside normal attacks even while that working is still Copied, and those
 automatic casts cost no SP. A worn piece of AURA equipment completes the
 resonance, adding speed and power. Automatic casts still improve their page and
 can earn rate-limited field GXP. "battlemage" shows the exact cadence, cost,
-equipment state, and current Recollection timer. Barrage cadence has a floor of
-two combat rounds. Fireball barrage leaves a light Burning effect, Icestorm
+equipment state, and current Recollection timer. Ordinary barrage cadence has
+a floor of two combat rounds. Fireball barrage leaves a light Burning effect, Icestorm
 barrage reaches nearby hostile targets and Chills them, and Missile lands as a
 visible two-missile volley rather than every page using the same impact.
+
+At Arcane 16, preparing a barrage with a real wielded FOCUS trades weapon
+swings for a barrage every round. The penalty is one swing below player level
+50 and rises by one each fifty levels, reaching six at level 250. Each round
+produces two to six complete barrages based on the FOCUS weapon's WC and item
+level, not on the Mage's remaining swing count. Investiture cannot enable it.
+The battlemage display reduces that combined weapon rating to a short Weave
+Power bar, with numeric progress in screen-reader output.
 
 The battlemage style also permits practical shields. Magi may use small and
 medium shields of any composition, plus the lightweight wood-and-natural
@@ -71,16 +79,19 @@ falls below five minutes.
 Ashkenazy, Falx, Saloman, Talek, James, Rodney, and Aiken are taught through
 Arcane study.
 Rodney opens at Arcane 7, can only be placed on a buff or control working with
-a real duration, and extends that duration by twenty-five percent. It can
-lengthen concentration blocks, Freezing, and Bodach Powerup, but not Burning. Falx
+a real duration, and extends it by twenty-five percent through two minutes,
+thirty-five percent over two minutes, or fifty percent over five minutes. It
+can lengthen concentration blocks, Freezing, and Bodach Powerup, but not Burning. Falx
 shortens a bound working's manual cooldown by twenty percent as well as
 quickening its barrage cadence. Marsellus, Mezari, and Ravidel reveal
 themselves when the spellbook records the right feats of mastery or elemental
 practice, but each still has the Arcane threshold shown by "runes". Elemental
 and forbidden rune damage lands as a separate ten-percent supplement per rune,
 so it cannot replace or weaken the working's native damage. Mezari lowers the
-inscribed working's SP cost by ten percent. Saloman returns at most one quarter
-of a manual working's ordinary cost; free barrage impacts cannot generate SP.
+inscribed working's SP cost by ten percent. Saloman's damaging return is capped
+at one quarter of a manual working's discounted ordinary cost; utility
+workings return ten percent of discounted base cost. Free barrage impacts
+cannot generate SP.
 At Arcane 9, the broken Tower of Arcanarton on the old Isle of the Magi begins
 a more dangerous line of research into the Arcanarton and Bodach runes.
 Once either pattern is known, a green-spined grimoire in the Darkwind Mage
@@ -121,7 +132,17 @@ Useful commands include:
   mage <message>               speak on the guild channel
   magi                         list visible Magi
 
-Use "magehelp spells" for the working reference, "magehelp emotes" for guild
-emotes, or "help <command>" when you want the exact syntax of one ability.
+Individual guide pages include:
+
+  magehelp spells          working progression and combat relationships
+  magehelp mastery         practice thresholds and socket progression
+  magehelp runes           every rune and its compatible kinds of working
+  magehelp barrage         automatic casting rules
+  magehelp battlemage      FOCUS, AURA, and resonance
+  magehelp overchannel     extra-SP settings and scaling
+  magehelp marginalia      long-study cosmetic writing hands
+  magehelp emotes          guild emotes
+
+Use "help <command>" when you want the exact syntax of one ability.
 Both "help tport" and "help teleport" open the travel working. Its fixed
 destinations accept dw, hyper, souv, and vi as common shorthand.

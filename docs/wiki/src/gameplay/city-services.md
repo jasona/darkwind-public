@@ -41,7 +41,7 @@ New adventurer equipment loop:
 3. Hunt a beginner area
 4. Inspect useful loot and `get all from corpse`
 5. Return to the Main Shop and sell ordinary loot, or carry a corpse burner
-   with `set autosell on` to send ordinary equipment to Taylor as you hunt.
+   with `set autosell on` to send ordinary sellable loot to Taylor as you hunt.
    Alternatively, `set autorefine on` converts refinery-eligible equipment
    directly into saved profession materials
 6. Bank spare coins

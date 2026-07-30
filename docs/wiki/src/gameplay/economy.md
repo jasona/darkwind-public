@@ -178,8 +178,8 @@ Getting started:
 - Find an ash processor
 - `press button` or `push button` to receive a corpse burner
 - Carry the burner while adventuring
-- Use `set autosell on` if you want it to transmit ordinary weapons and
-  armour from NPC corpses directly to Taylor
+- Use `set autosell on` if you want it to transmit ordinary sellable loot from
+  NPC corpses directly to Taylor
 - Or use `set autorefine on` to convert ordinary refinery-eligible NPC
   equipment directly into saved profession materials without carrying it
   back to town
@@ -198,7 +198,7 @@ Ash commands:
 | `check burner` | Show stored grey, red, and blue ash |
 | `set autoburn on` | Burn a corpse after other automatic corpse processing |
 | `set autoburn off` | Stop automatically burning corpses |
-| `set autosell on` | Automatically sell ordinary equipment from your kills |
+| `set autosell on` | Automatically sell ordinary sellable loot from your kills |
 | `set autosell off` | Stop automatically selling equipment |
 | `set autorefine on` | Automatically convert eligible NPC equipment into profession materials |
 | `set autorefine off` | Stop automatically refining equipment |

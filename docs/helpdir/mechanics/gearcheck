@@ -37,4 +37,5 @@ until its builder declares a power value.
 
 Gearcheck never equips, removes, installs, or otherwise changes an item.
 Scripted item effects are only included when the item explicitly declares
-their power value.
+their power value. Use |CKBsmartequip|YKO to automatically apply positive,
+high-confidence armour and weapon improvements from your direct inventory.

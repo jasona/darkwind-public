@@ -15,11 +15,14 @@ workings rather than separate advancement tracks.
 
 Mage is intended to feel useful immediately. Mana Shard and Missile are steady
 first-page attacks, while Analyze, Detect, and Blaze give a new member reasons
-to open the spellbook outside combat. Level-appropriate fighting supplies Mage
-guild XP, or GXP. Useful field casting awards 10 GXP for a utility working or
-20 for a combat working, at most once per working every thirty seconds, so
-varied play advances Arcane without rewarding empty repetition. Indexed
-workings end at Arcane 15, but prestige study can continue to rank 1000.
+to open the spellbook outside combat. Detect reads active conditions and verbs
+registered by the current room. Authored magical clues can expand a verb into
+exact syntax when it needs an argument; at Arcane 4 Detect also reveals
+concealed exits. Level-appropriate fighting supplies Mage guild XP, or GXP.
+Useful field casting awards 10 GXP for a utility working or 20 for a combat
+working, at most once per working every thirty seconds, so varied play
+advances Arcane without rewarding empty repetition. Indexed workings end at
+Arcane 15, but prestige study can continue to rank 1000.
 
 ## Learning the spellbook
 
@@ -129,8 +132,17 @@ copy of itself beside ordinary combat. A Practiced working can be prepared with
 `barrage <working>` and continues to improve as its automatic casts land. Its
 cadence rises from every four combat rounds at Practiced to every three at
 Fluent and every two at Inscribed. Mastery lowers its SP cost, Falx can quicken
-the rhythm, and Instinctive barrage costs nothing. Two rounds is the cadence
-floor; Falx cannot turn an already two-round barrage into a one-round barrage.
+the rhythm, and Instinctive barrage costs nothing. Two rounds is the ordinary
+cadence floor; Falx cannot turn an already two-round barrage into a one-round
+barrage.
+
+At Arcane 16, a real wielded FOCUS replaces that floor with a harsher bargain:
+the page fires every round and produces two to six complete barrages based on
+the weapon's WC and item level. It never scales from ordinary weapon swings.
+Instead, the Mage loses one swing below player level 50 and another at every
+50-level threshold, reaching six at level 250. Investiture cannot enable this
+mode. `battlemage` presents the combined weapon rating as a short Weave Power
+bar, with equivalent numeric progress for screen readers.
 
 The lighter copies still keep their identities. Missile lands as a two-bolt
 volley. Fireball hits harder than Mana Shard and leaves a light Burning effect.
@@ -181,19 +193,21 @@ the spellbook to witness a feat or discovery.
 | Marsellus | Augmentation | A chance of a force echo | Arcane 5 and three Fluent workings |
 | Mezari | Amity | 10% lower spell-point cost | Arcane 6 and one Inscribed working |
 | Ravidel | Igneous | Fire damage and Burning | Arcane 6 and fifty useful fire casts |
-| Rodney | Continuance | 25% longer buffs and control effects | Arcane 7 |
+| Rodney | Continuance | 25–50% longer buffs and control effects | Arcane 7 |
 | Aiken | Severance | Half normal armor absorption on damaging workings | Arcane 8 |
 | Arcanarton | Entropy | Chaos, disease, and unstable force | Arcane 9 and the broken theorem |
 | Bodach | Demise | Death magic and life siphoning | Arcane 9 and the silence beneath the Isle |
 | Trivlian | Putrefaction | Converts damaging workings to evil and acid | Arcane 9, Bodach or Arcanarton, and the green attic grimoire |
 
-Saloman's return is capped at one quarter of the manual working's discounted
-ordinary cost. Automatic barrage impacts do not generate SP.
+Saloman's damaging return is capped at one quarter of the manual working's
+discounted ordinary cost. Utility workings return ten percent of discounted
+base cost. Automatic barrage impacts do not generate SP.
 
 Rodney is deliberately narrower than an elemental rune: it can only be bound
-to a duration-bearing buff or control working. It extends Insane and Wrath
-concentration blocks, Stasis Freezing, and Bodach Powerup, but cannot lengthen
-Burning. Rune
+to a duration-bearing buff or control working. It adds twenty-five percent
+through two minutes, thirty-five percent over two minutes, and fifty percent
+over five minutes. It extends Insane and Wrath concentration blocks, Stasis
+Freezing, and Bodach Powerup, but cannot lengthen Burning. Rune
 bindings also alter visible spell language: Talek can turn Fireball into blue
 coldfire, while forbidden runes make Bolt's lightning black and coruscating
 and Ravidel can push it toward plasma.
@@ -209,6 +223,13 @@ teapot, bespectacled gecko, or similarly serious scout, while Teleport writes
 its paired portals in irresponsible colors. Trivlian's rune pulses green and
 replaces a damaging working's native type with evil and acid. Its grimoire
 opens in the Darkwind Mage attic only after Bodach or Arcanarton is known.
+
+The spellbook rejects bindings that have no effect on a page. `runes <rune>`
+lists compatible workings and `spellbook <working>` lists compatible runes.
+Falx and James can annotate every page; Saloman and Mezari fit SP-costing
+workings; Rodney fits duration-bearing buffs and controls; damage runes fit
+damaging workings. Bodach and Arcanarton retain their authored non-damage
+exceptions on Insane, and Bodach also changes Powerup.
 
 When Bodach is bound to Powerup, the one-shot conversion becomes a visible
 fifteen-pulse buff. Each pulse spends the chosen HP amount without crossing a

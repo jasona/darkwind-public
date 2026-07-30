@@ -39,6 +39,8 @@ for our players.
 
   Use |YKOeq|WKO or |YKOmyeq|WKO to see what you are currently wearing,
   wielding, or using as active non-cybernetic internal equipment.
+  Use |YKOsmartequip|WKO to fill open armour and weapon slots and replace
+  weaker standard equipment using the same power scores shown by gearcheck.
   Use |YKOloadout|WKO to save named armour and weapon presets and switch
   between them outside combat. Loadouts do not change installed cyberware
   or other internal equipment.

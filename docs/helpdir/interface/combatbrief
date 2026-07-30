@@ -11,7 +11,7 @@ possible to have all, none, or a few toggled on at a time.
 |YKBcombatbrief short  |WKO- |YKOAll combat messages are displayed as 'A hits B' or
                      'A misses B'
 
-|YKBcombatbrief self   |WKO- |YKOOnly attacks by you will be displayed.
+|YKBcombatbrief self   |WKO- |YKOOnly attacks by or against you will be displayed.
 
 |YKBcombatbrief hit    |WKO- |YKOOnly hits will be displayed. Dodges and misses will
                      be ignored.
