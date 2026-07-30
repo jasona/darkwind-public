@@ -9,8 +9,9 @@ Earning Priest XP:
 - Any NPC kill where you struck the killing blow, or dealt at least a
   tenth of the victim's health, awards Priest XP to everyone in the
   group who qualifies.
-- Tougher prey is worth more; prey ten or more levels beneath you is
-  worth nothing. Bosses carry large bonuses.
+- Tougher prey is worth more. Rewards taper when prey is more than five
+  levels beneath you and reach nothing at fifteen levels beneath you.
+  Bosses carry large bonuses.
 - Variety pays. Hunting the same spawn over and over decays the
   reward; ranging widely keeps it at full value.
 - A committed prayer that reserves HP or SP earns one Priest XP per

@@ -7,7 +7,7 @@ Syntax:
   schemes activate <name>
   schemes swap <active> for <learned>
 
-Charlatan Rank opens one new scheme every five Ranks from 35 through 100.
+Charlatan Rank opens one new scheme every five Ranks from 35 through 105.
 Drina teaches each open scheme for gold and you permanently scribble its notes
 inside your cloak. Learning automatically activates the scheme when an empty
 slot is available. A learned, inactive scheme may fill a newly earned empty
@@ -15,7 +15,7 @@ slot for free; replacing an occupied slot costs gold.
 
 One scheme may be active initially. Rank 50 opens a second active slot, Rank
 100 opens a third, and every fifty Ranks thereafter opens another. By Rank
-100 every scheme can be learned, but only three can be active.
+105 every scheme can be learned, but only three can be active.
 
   Rank 35   Hair Trigger
     Loading a weapon in combat immediately throws a carried elemental or acid
@@ -68,6 +68,10 @@ One scheme may be active initially. Rank 50 opens a second active slot, Rank
   Rank 100  The Long Con
     An opening-powered Sucker Punch trades half its bonus burst for a longer
     Exposed condition.
+
+  Rank 105  Liquid Assets
+    Cdip coats every clean caravan dart carried or stored in the cloak instead
+    of stopping after ten.
 
 Listing and inspecting schemes works anywhere. Drina must be present to teach,
 activate, or swap cloak notes. She does not extend credit and denies ever

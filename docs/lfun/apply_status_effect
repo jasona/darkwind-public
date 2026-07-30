@@ -13,6 +13,7 @@ Named wrappers are preferred:
   apply_chilled(int duration, object source, status silent)
   apply_freezing(int duration, object source, status silent)
   apply_exposed(int duration, object source, status silent)
+  apply_sundered(int strength, int duration, object source, status silent)
 
 Use query_status_effect(mask), query_status_effect_strength(effect),
 query_status_effect_remaining(effect), query_status_effect_source(effect),

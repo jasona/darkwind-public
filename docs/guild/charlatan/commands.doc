@@ -31,11 +31,15 @@ Volatility -- chemistry with an exit strategy:
 
 Contraband -- improvements without warranties:
 
-  loadweapon <weapon> with <dazzling|oiled|silvered|flaming|frozen|poisoned|shocking>
+  loadweapon <weapon> with <corrosive|dazzling|oiled|silvered|flaming|frozen|poisoned|shocking>
+  cdip <dart|darts> in <acid flask|element flask|poison>
+                                  Aliases: cpoison, poisondart
   stretchpoison <poison> onto <weapon>
   pocketsand [foe]
 
 The caravan shops also sell ordinary throwing darts. Carry one and use
-'throw <target>'. They are sharp, balanced, and entirely innocent until used.
+'throw <target>'. Cdip can turn one real flask or poison dose into as many as
+ten coated darts; Liquid Assets removes that limit. Acid coatings can leave a
+victim Sundered.
 
 Use 'charlhelp <command>' or 'chskills' for costs and requirements.

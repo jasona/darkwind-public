@@ -14,9 +14,11 @@ time. Hostile effects appear under **Debuffs** and cannot be removed with
 | Chilled | Reduces swings by 10% and adds 1 second to newly incurred standard ability cooldowns. A second application promotes Chilled to Freezing. |
 | Freezing | Reduces swings by 20% and adds 2 seconds to newly incurred standard ability cooldowns. |
 | Exposed | Adds 5 percentage points to incoming critical-hit chance. |
+| Sundered X | Lowers armour class by X. Sundered stacks to 3; a new application refreshes the remaining duration. |
 
-Burning and Bleeding show their current X value in `buffs`. Durations for
-Bleeding, Chilled, Freezing, and Exposed depend on the ability or creature
+Burning, Bleeding, and Sundered show their current X value in `buffs`.
+Durations for Bleeding, Chilled, Freezing, Exposed, and Sundered depend on the
+ability or creature
 that applied them. Reapplying a timed effect never shortens its remaining
 duration.
 

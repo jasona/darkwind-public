@@ -184,10 +184,11 @@ Rank starts at 1 and grants one Vex per Rank. XP required for the next Rank is:
 Berserker XP is awarded automatically for meaningful NPC kills while
 Berserker is the active guild. The Berserker must land the killing blow or be
 listed among the killers after dealing at least 10% of the victim's maximum
-health. Pets, players, zero-XP NPCs, and enemies ten or more levels below the
-Berserker award none. The standard player kill tracker scales awards when too
-many recent kills come from the same area, encouraging varied hunting without
-eventually stopping combat XP altogether. Bosses are exempt from this scaling.
+health. Pets, players, and zero-XP NPCs award none. Rewards taper for enemies
+more than five levels below the Berserker and reach zero at fifteen levels
+below. The standard player kill tracker scales awards when too many recent
+kills come from the same area, encouraging varied hunting without eventually
+stopping combat XP altogether. Bosses are exempt from this variety scaling.
 
 The Darkwind trainer also supports
 `convert berserker <normal-xp|next>` outside combat. The conversion rate begins

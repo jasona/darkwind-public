@@ -7,9 +7,10 @@ a combo piece.
 Ninja rank is separate from guild level. Every rank after rank 1 earns one
 training session. Use <practice> to spend a session and improve one ability
 by 5%, up to 100%. Rank costs 250 guild XP (GXP) each time. Valid skill
-attempts, completed combos, and qualifying combat kills award GXP. An NPC ten
-or more levels below you is too weak to grant battle GXP. Use <nskills> to
-review rank, GXP, sessions, marks, and reliability.
+attempts, completed combos, and qualifying combat kills award GXP. Battle GXP
+tapers for NPCs more than five levels below you and reaches zero at fifteen
+levels below you. Use <nskills> to review rank, GXP, sessions, marks, and
+reliability.
 
 Many offensive techniques also add a piece to the Ninja combo system.
 When enough recent pieces are present, the wraps may release a special

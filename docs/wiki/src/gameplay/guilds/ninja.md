@@ -4,6 +4,8 @@ Ninja are disciplined assassins built around stealth, disabling strikes,
 bare-handed combat, and short technique combos.
 
 Joining requires level 5 and at least 10 unmodified Dexterity.
+Ninja and Street Samurai are compatible multi-guild choices in either join
+order, subject to the normal level and membership limits.
 
 ## Progression
 
@@ -15,9 +17,10 @@ Ninja have two independent progression tracks:
 - Ninja rank rises every 250 guild XP (GXP). Each rank after rank 1 grants one
   training session. Rank does not change guild level.
 
-Qualifying combat kills use the shared guild-kill award system; NPCs ten or
-more levels below the Ninja grant no battle GXP. A fully validated Ninja skill
-attempt awards 2 GXP, whether its reliability roll
+Qualifying combat kills use the shared guild-kill award system. Battle GXP
+tapers for NPCs more than five levels below the Ninja and reaches zero at
+fifteen levels below. A fully validated Ninja skill attempt awards 2 GXP,
+whether its reliability roll
 succeeds or fails, subject to per-skill pacing. Resolving a three-piece combo
 awards another 10 GXP.
 

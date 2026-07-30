@@ -21,7 +21,7 @@ extraction, and signature repair services. Samrepair is only for a corrupt or
 incomplete guild installation, not normal onboarding.|000
 
 |CKBStarting commands|000
-|CK0dashboard - firmware version, Cortex, and implant diagnostic
+|CK0dashboard [-text] - graphical Cortex dashboard or terminal diagnostic
 samskills - routine unlocks, costs, and readiness
 samstatus - compact combat and resource state
 samxp - Guild Level, Cortex Rank, and GXP progress

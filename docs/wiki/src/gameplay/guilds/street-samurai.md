@@ -11,6 +11,8 @@ fighting condition.
 The public Street Samurai contract office is near Moongate Plaza. Joining
 automatically installs the required prototype-grade Cortex OS. A restricted exit
 from the office leads members and wizards to Rin Kade's guild clinic.
+Street Samurai and Ninja are compatible multi-guild choices in either join
+order, subject to the normal level and membership limits.
 
 New members do not need to run `samrepair`. That command exists only to recover
 an older or corrupted installation at a staffed clinic.

@@ -38,7 +38,10 @@ or under) and your corpse stays safely with you. See |CKBhelp death|YKO.
 
 Fighting together: |YKBassist <player>|YKO joins a friend's fight, and
 parties split the work and the reward; see |CKBhelp party|YKO. Trim
-combat spam with |YKBcombatbrief|YKO.|XX0
+combat spam with |YKBcombatbrief|YKO, or use
+|YKBcombatbrief visual|YKO to move routine swings into a ready Darkflow
+Combat pane. Important ability, warning, flee, death, and reward text
+continues in the terminal.|XX0
 
 |WKBSee also: |YKBkill, assess, assist, party, wimpy, buffs, shields, death, pk|XX0
 
