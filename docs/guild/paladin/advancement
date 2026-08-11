@@ -30,7 +30,13 @@ Guild levels:
 Commands:
 - 'cost' and 'advance guild' at the guild hall report your progress.
 - Devotion points still come with each guild level; spend them with
-  'devote'. Titles remain yours to choose via 'ptitle' and 'title'.
+  'devote'. Use 'devote reset' to preview renewing all of your devotion
+  choices before Mitra's statue in the guild hall. Your first renewal is
+  free; later renewals require an escalating coin offering.
+- A confirmed renewal returns every allocated devotion point and ends all
+  active Paladin effects, including blessings, sanctifications,
+  consecrations, summoned seals, and holy javelins.
+- Titles remain yours to choose via 'ptitle' and 'title'.
 
 Your battle record survives leaving the guild. Should you return in
 good standing, your guild level is restored.

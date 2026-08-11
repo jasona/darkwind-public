@@ -1,7 +1,7 @@
 # Vampire
 
-Work in progress: Vampire is being built toward this design, and current game
-behavior differs in places.
+Vampire is not currently open to new characters. Its page describes the path's
+identity rather than promising access.
 
 Vampire is a transformation of appetite, body, social presence, and weakness.
 

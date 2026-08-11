@@ -57,9 +57,11 @@ New adventurers have a few extra commands.
 | --- | --- |
 | `nheal` | Restore a small amount of HP |
 | `ncot` | Return to Center of Town |
+| `nbolt` | Make a magical attack that rewards Intelligence |
 | `npunch` | Make a simple attack |
 | `nkick` | Make a simple attack |
 | `aheal` | Level 6–49 version of `nheal` |
+| `abolt` | Level 6–49 version of `nbolt` |
 | `apunch` | Level 6–49 version of `npunch` |
 | `akick` | Level 6–49 version of `nkick` |
 

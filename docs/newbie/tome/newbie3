@@ -15,9 +15,11 @@ Watch your resources with |YKBmonitor bar|YKO, |YKBmon|YKO, or
 you can also flee by moving through an exit. Use |YKBassist <player>|YKO to
 join a friend's fight without accidentally targeting the friend.
 
-New characters can use |YKBnheal|YKO, |YKBnkick|YKO, |YKBnpunch|YKO, and
+New characters can use |YKBnheal|YKO, |YKBnbolt|YKO, |YKBnkick|YKO,
+|YKBnpunch|YKO, and
 |YKBncot|YKO through level 5. Their adventurer forms
-|YKBaheal|YKO, |YKBakick|YKO, |YKBapunch|YKO, and |YKBacot|YKO remain
+|YKBaheal|YKO, |YKBabolt|YKO, |YKBakick|YKO, |YKBapunch|YKO, and
+|YKBacot|YKO remain
 available from levels 6 through 49.
 
 Use |YKBcombatbrief|YKO to control routine combat text. The short, self, hit,

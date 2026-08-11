@@ -49,7 +49,9 @@ Manufacturing uses gathered resources and reagents dropped by NPCs.
 
 Manufacturing skillups depend on the tier of item being made. Crafting far below your current skill eventually stops improving the profession until the final tier.
 
-Cybernetics currently uses the private Street Samurai fabrication table. Extracted cyberware can be dismantled into saved cybernetic components, which are displayed with `reagents cyber` and consumed by fabrication recipes.
+Cybernetics recipes are learned through Street Samurai fabrication. Extracted
+cyberware can be dismantled into saved components, shown with `reagents cyber`
+and consumed by those recipes.
 
 ## Forestry
 
@@ -297,4 +299,6 @@ Professions feed directly into [Economy](economy.md).
 
 ## Guild And Class Hooks
 
-Some guild and class designs build on professions directly. Druid uses harvesting and nature work as part of guild life. Mage research can use purchased inks, reagents, and ash-derived materials. Future class systems can treat profession mastery as a path into specialized crafting and support play.
+Some guilds build on professions directly. Druid uses harvesting and nature
+work as part of guild life, while Mage research can use purchased inks,
+reagents, and ash-derived materials.

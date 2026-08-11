@@ -1,6 +1,7 @@
 # The Three Moons
 
-Work in progress: this page describes the lunar domains we are building toward, and current game content differs in places.
+Some lunar places are known through lore before they can be reached. Use
+`areas dailos`, `areas markas`, or `areas tekal` for available routes.
 
 Blackmar has three moons: Dailos, Markas, and Tekal. They are visible in the sky, woven into calendars and omens, and reachable as separate domains. To most people they are celestial powers. To adventurers they are also places with roads, cities, monsters, shrines, and rules.
 

@@ -1,7 +1,7 @@
 # Fighter
 
-Work in progress: Fighter is being built toward this design, and current game
-behavior differs in places.
+In-game guild help is authoritative for Fighter training and abilities
+available to your character.
 
 Fighters are trained combatants. They own weapons, armor, shields, positioning,
 endurance, discipline, and the practical art of keeping a battle from falling

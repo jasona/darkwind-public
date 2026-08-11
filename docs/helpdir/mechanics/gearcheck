@@ -11,7 +11,8 @@ DESCRIPTION
 |YKOCompares the equipment in your inventory with the equipment you are
 currently using. It accounts for weapon class, armour protection, equipment
 stats, resistances, sigils, known combat effects, cyberware strain, durability,
-and the equipment slots that an item would replace.
+the equipment slots that an item would replace, and the normal bonus or penalty
+from your trained weapon specialization.
 
 The normal report shows every comparable item, including upgrades, sidegrades,
 downgrades, and items with effects that cannot be scored confidently. Use

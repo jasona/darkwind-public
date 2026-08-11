@@ -1,8 +1,8 @@
 # Dramasa
 
-Work in progress: Heffenpurt is the first implemented Dramasa area. Ships can
-reach it through the Cold Sea, while a scheduled ferry and the inland regions
-remain under construction.
+Ships can reach Heffenpurt through the Cold Sea. Other inland places are known
+through stories, but travelers should use `areas dramasa` for routes that are
+currently open.
 
 Dramasa is a barren ice-covered land. It is not the lived-in northern myth of Hyperborea. Dramasa is harsher, emptier, and more alien: white plains, frozen roads, black rock, silent ruins, and auroras that make the snow look haunted.
 

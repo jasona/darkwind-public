@@ -1,7 +1,7 @@
 # Charlatan
 
-The Charlatans are live on their modern command path. Their many-pocketed
-cloak keeps their road training and Rank notes, while their tricks cover
+The Charlatans keep their road training and Rank notes in a many-pocketed
+cloak, while their tricks cover
 control, volatile ash brews, poison leverage, and temporary loaded weapons.
 
 Charlatans are Wayfarian tricksters who make lies useful. They win by creating
@@ -20,7 +20,7 @@ horizontal schemes rather than additional road points. Every new
 Charlatan begins with `confuse` and `suckerpunch`; Misdirection improves both
 rather than gating the guild's first direct attack.
 
-| Road | Play pattern | Candidate skills |
+| Road | Play pattern | Skills |
 | --- | --- | --- |
 | Misdirection | Control, escape, illusion, social pressure | Improves `confuse` and `suckerpunch`; `distract` at road 2; `avoid` at road 3 |
 | Volatility | Dangerous mixtures and bottled weather | `brewacid` and `cookash` at road 1; `brewelement` and `concoct` at road 2 |
@@ -102,7 +102,7 @@ profession potion later, but does not replace the profession recipe.
 
 `brewacid` requires guild rank 2, Volatility 1, and Alchemy 25. It makes one
 owner-bound base flask, which may be thrown as a modest acid surprise or used by
-`cookash <grey|red|blue|mixed>` (legacy alias `ccook`). Cook Ash uses every
+`cookash <grey|red|blue|mixed>` (also `ccook`). Cook Ash uses every
 available ash of the selected colour; mixed uses every colour. A single batch
 needs at least 10 relevant ash, while mixed needs at least 10 of each. Grey
 requires Alchemy 25, red/blue 75, and mixed 150.
@@ -152,8 +152,8 @@ improve delivery: conceal a dose, stretch its duration at reduced strength,
 mix two weak toxins, or trigger a secondary distraction. They do not need a
 parallel poison catalog.
 
-The caravan shops still sell ordinary throwing darts, whose item-owned
-`throw <target>` action remains live. `cdip` consumes a fresh Charlatan acid
+The caravan shops sell ordinary throwing darts with their own
+`throw <target>` action. `cdip` consumes a fresh Charlatan acid
 or elemental flask, or an existing prepared poison, to coat up to ten clean
 darts. The Rank 105 Liquid Assets scheme removes that limit. Acid darts can
 Sunder; fire, ice, lightning, and poison retain their own delivery effects.
@@ -201,11 +201,11 @@ At guild rank 3 and Misdirection 2, `distract` throws the Charlatan's voice
 somewhere inconvenient and disrupts a foe's concentration. With deeper
 Misdirection, the mark may briefly forget whom they were fighting at all.
 
-## Live Commands
+## Commands
 
 | Command | Gate | Purpose |
 | --- | --- | --- |
-| `charlhelp` / `chelp` | Member | Modern guild topics and live command help |
+| `charlhelp` / `chelp` | Member | Guild topics and command help |
 | `chskills [available]` / `cskills` | Member | Ability syntax, costs, cooldowns, unlock requirements, and current availability |
 | `charlatan` / `cchat` | Member | Primary guild chat; `echarlatan`/`ecchat` manually emotes |
 | `chist [lines]` | Member | Recent Charlatan line history |

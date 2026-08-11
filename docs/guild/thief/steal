@@ -5,4 +5,4 @@ a player or mob.  The chance of success is based on your dexterity
 (mental and physical) and your guild level.
 
 |CKOGLVL required: |GKB2
-|CKOSyntax: |YKOsteal <target>               |CKOCost: |WKO~20
+|CKOSyntax: |YKOsteal <target> |CKO(or |YKOtsteal|CKO/|YKOlift|CKO)    |CKOCost: |WKO~20

@@ -60,6 +60,8 @@ Buy a ticket near the docks, board when the ferry arrives, and keep the ticket u
 ## Ships
 
 Players can own ships. Ship types include cogs, galleys, catamarans, and carracks.
+At a ship shop, use `inquire <ship name>` to learn where a registered ship is
+currently docked and who owns it. Ship names must be one word.
 
 Common ship commands:
 

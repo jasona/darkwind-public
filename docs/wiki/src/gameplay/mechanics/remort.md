@@ -46,8 +46,8 @@ Remort players advance differently from first-life characters:
 - **No death penalty to stats.** Remort players do not lose stats when they
   die.
 - **The remort tax.** Remort climbs use a variation of the same base experience curve as a
-  first-life character. Each remort level adds 10% to that cost, so a soul on
-  its tenth remort needs double the base experience per level. This is the
+  first-life character. Each remort level adds 2% to that cost, so a soul on
+  its tenth remort needs 20% more experience per level. This is the
   pacing counterweight to permanently stacking boons.
 
 ## Boon Points And Boons
@@ -69,26 +69,20 @@ Every remort level earns one boon point. Points are spent through
 | Mythic Vitality | +5% maximum HP | 3 | 2 | Remort 5 |
 | Mythic Spirit | +5% maximum SP | 3 | 2 | Remort 5 |
 
-Design principles behind the catalog:
+When choosing boons:
 
-- **Bounded power.** Every boon has a maximum rank, so total remort power is
-  capped (+35% HP/SP, +20 per stat, +25% XP) no matter how many lives a soul
-  has lived. Veterans are clearly stronger, never unkillable.
+- **Every boon has a limit.** Maximum ranks keep each choice meaningful
+  without allowing one bonus to grow forever.
 - **Boons stack outside normal caps.** Stat boons add on top of trained
   stats, like meta bonuses, and are not limited by the level-based stat cap.
-- **Fair effort-to-power.** One climb to 250 buys one point: roughly +2% HP
-  or +2 to one stat. Meaningful, visible, and worth the climb without
-  invalidating first-life characters.
-- **Milestone gating.** Higher remort levels unlock stronger picks (the
-  Mythic boons at remort 5). This is the same gating hook used for future
-  remort-locked guilds, skills, and commands.
-- **Choices are permanent.** No respec. Implementors can refund a soul in
-  exceptional cases (`remortadmin refund`).
+- **Later lives open stronger choices.** Mythic boons become available at
+  remort 5.
+- **Choices are permanent.** Review a boon carefully before confirming it.
 
-## Remort Gating For Content
+## Where Remort Matters
 
-The remort level is a first-class progression axis. Builders can gate
-content on it via `REMORT_D->query_remort_level(player)`:
+Remort level is more than a bonus total. The world can recognize the depth of
+a character's soul through:
 
 - Guilds that require a minimum remort level to join
 - Skills, commands, or equipment that only serve souls of a certain depth
@@ -108,31 +102,11 @@ content on it via `REMORT_D->query_remort_level(player)`:
 
 In-game help: `help remort` and `help boons`.
 
-## Admin Commands
-
-`remortadmin` (implementor only): `show`, `boons`, `setlevel`, `setremort`,
-`grantpoints`, `refund`, `clear`, `history`. All mutations are logged to
-`/log/REMORT`.
-
 ## Guardrails
 
 - Remort never deletes the character
 - Remort never erases money, inventory, or major ownership
 - Only the player themselves can confirm their remort or spend their points
-- Immortals, ghosts, and characters in combat cannot remort
+- Immortals, ghosts, characters in combat, and transformed characters cannot
+  remort
 - The full consequences are shown before the final confirmation
-
-## Future Directions
-
-The remort level opens design space that later releases can build on:
-
-- [Shrines of Creation](shrines-of-creation.md) as flavorful remort sites
-  with trials, offerings, and shrine-specific boons
-- [Classes](../classes.md) unlocked through class shrines. Artificer is
-  implemented for wizard testing, but the Brass Crucible approach and rite
-  remain disabled until release; other classes remain design targets.
-- Exotic [clades](../clades.md) available only to reborn souls
-- Remort-gated guilds, skills, and commands
-- New boons, including drawback-for-power burdens
-
-These remain design targets and do not match current game behavior.

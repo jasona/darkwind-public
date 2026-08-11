@@ -44,7 +44,7 @@ Cortex throughput improves at post-GL16 milestones with diminishing gains all
 the way through CR200. It scales routine output without replacing hardware
 grade or maintenance effectiveness. Armor Weave, Predictive Sight, Overclock,
 Zero Signal, and the Ronin-sama Kernel all benefit from that continued growth.
-`dashboard` shows the live value.
+`dashboard` shows the current value.
 
 Signature hardware unlocks with its paired firmware. Hardware grades unlock at
 these guild levels:
@@ -63,7 +63,7 @@ effectively, and consume more strain. Grade does not replace maintenance.
 
 Edge represents positioning and openings. Snap Cut is the dependable early
 source, while later routines create, spend, or refund it in different ways.
-Second Spur can raise the live maximum. The combat monitor, `samstatus`, and
+Second Spur can raise the current maximum. The combat monitor, `samstatus`, and
 `dashboard` report the current capacity.
 
 Most active routines automatically route one available Edge into a stronger
@@ -142,14 +142,14 @@ extraction, and signature repairs from Rin; hardware purchases still cost
 coins.
 
 Installed implants consume strain capacity and can conflict by internal
-location. `implants` lists all internal equipment, `cyberware` shows the live
+location. `implants` lists all internal equipment, `cyberware` shows the current
 internal layout and strain capacity, and `dashboard` reports Street Samurai
 implant load and condition.
 
 The Street Samurai contract adds strain capacity as Guild Level advances.
 Reaching Ronin-sama at Guild Level 16 provides a substantial final capacity
 surge for installing new hardware or upgrading an existing implant. Character
-level and remort progress add further capacity. Use `cyberware` for the live
+level and remort progress add further capacity. Use `cyberware` for the current
 total before buying or installing another implant.
 
 ## Maintenance

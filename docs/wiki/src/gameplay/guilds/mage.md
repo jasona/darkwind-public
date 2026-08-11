@@ -16,7 +16,7 @@ workings rather than separate advancement tracks.
 Mage is intended to feel useful immediately. Mana Shard and Missile are steady
 first-page attacks, while Analyze, Detect, and Blaze give a new member reasons
 to open the spellbook outside combat. Detect reads active conditions and verbs
-registered by the current room. Authored magical clues can expand a verb into
+registered by the current room. Some magical clues can expand a verb into
 exact syntax when it needs an argument; at Arcane 4 Detect also reveals
 concealed exits. Level-appropriate fighting supplies Mage guild XP, or GXP.
 Useful field casting awards 10 GXP for a utility working or 20 for a combat
@@ -78,9 +78,17 @@ each, up to seventy-five percent. A group that brings its own statuses can help
 write the same ending.
 
 Mana Barrier is the first sustained defensive conversion: for its duration,
-each damaging hit has a thirty-five percent chance to consume SP instead of HP
-after armor, resistance, and shields. A partial reserve absorbs only the part
-it can pay for.
+each damaging hit has a chance to consume SP instead of HP after armor,
+resistance, and shields. The chance rises with true Arcane rank on a
+diminishing curve, while Mana Barrier mastery reduces the SP cost of absorbed
+damage through its named tiers. Costs round up, and a partial reserve absorbs
+only the part it can pay for. `battlemage` reports the exact current chance and
+efficiency.
+
+Phase moves a body partly outside the physical world. While phased, a Mage
+cannot handle ordinary items, but can still collect coins and profession
+reagents; the broader interaction restriction remains part of its defensive
+tradeoff.
 
 Echoform waits beside the Mage's thoughts and copies the next direct offensive
 working for a thirty-five percent echo two seconds later. Its cooldown is one
@@ -228,7 +236,7 @@ The spellbook rejects bindings that have no effect on a page. `runes <rune>`
 lists compatible workings and `spellbook <working>` lists compatible runes.
 Falx and James can annotate every page; Saloman and Mezari fit SP-costing
 workings; Rodney fits duration-bearing buffs and controls; damage runes fit
-damaging workings. Bodach and Arcanarton retain their authored non-damage
+damaging workings. Bodach and Arcanarton retain their unusual non-damage
 exceptions on Insane, and Bodach also changes Powerup.
 
 When Bodach is bound to Powerup, the one-shot conversion becomes a visible
@@ -246,8 +254,8 @@ quieter voices there. These discoveries remain in the spellbook permanently.
 
 ## Long study and useful commands
 
-Arcane study continues to rank 1000, while legacy spell and guild-level unlocks
-remain capped at 15. Rank costs rise quadratically per step beyond the authored
+Arcane study continues to rank 1000, while spell and guild-level unlocks
+remain capped at 15. Rank costs rise quadratically per step beyond the early
 early table, making 1000 vastly more expensive than 500. Long study opens
 Silverline, Ember Script, Aurora Hand, and the Void Palimpsest; this progress
 is cumulative.
@@ -265,7 +273,7 @@ Most of the guild can be navigated through a small set of commands. `research`
 or `study` describes Arcane progress and the next page. `spellbook` follows
 mastery, rune sockets, equipment resonance, and the prepared barrage, while
 `spells` is the working index. `runes`, `inscribe`, and `unbind` manage the
-customization pages. `battlemage` explains the live weapon-and-AURA setup.
+customization pages. `battlemage` explains the current weapon-and-AURA setup.
 `overchannel` reports or changes the additional maximum-SP commitment.
 `mageaura` lists and selects prestige cosmetics.
 Teleport answers to both `tport` and `teleport`; `dw`, `hyper`, `souv`, and

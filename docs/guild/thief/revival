@@ -1,0 +1,37 @@
+                      Modern Thief Systems
+---------------------------------------------------------------------
+
+Advancement:
+  Thief uses automatic Guild XP advancement, not carried gold.
+  Each Rank grants one Knack point. Use 'tstatus' and 'knacks'.
+
+Combat:
+  Case one target, build up to five Opportunity, then spend it on
+  dirtyfight, trip, circle, envenomstrike, hamstring, disembowel, or
+  backstab. Quickstrike uses canonical Bleeding. Disembowel benefits
+  from any guild's Bleeding and does not consume it. Circle cooperates
+  with any guild's Exposed.
+
+  Abilities have a two-second category recovery and a separate reuse
+  time for that exact skill. Change techniques to keep a combination
+  moving; repeating the same move requires longer. Backstab's personal
+  reuse time is twenty-four seconds.
+
+Customization:
+  Ghost, Grifter, and Knife each contain six five-rank Knacks. Complete
+  a branch to open diminishing mastery. After training 10 Knack ranks
+  in a discipline, choose one Method; swaps are free in a Thieves Guild
+  hall. Use 'knacks reset confirm' there for a paid full retrain.
+
+World play:
+  Detect hidden exits and traps. Disguise as a laborer, courier, pilgrim,
+  or merchant to interact with guard notice without changing real
+  reputation. Contacts reports guard attention, passes, and the current
+  bribe estimate. Incidents replace a separate Heat meter. Dangerous
+  NPC schemes work on suitable local intelligent NPCs without custom
+  monster hooks. Frame throws your voice so one nearby NPC appears to
+  insult another; Agitators and master Masterminds can choose the pair.
+
+Poisoncraft:
+  Extract, prepare, then envenom. Prepared doses remain in your poison
+  inventory between sessions; weapon coatings do not. See 'thelp poison'.

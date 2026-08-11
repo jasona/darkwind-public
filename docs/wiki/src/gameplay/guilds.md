@@ -1,7 +1,7 @@
 # Guilds
 
-Work in progress: the guild roster is being built toward this design, and
-current game behavior differs in places.
+Guild availability and training can change with a character's choices. Use
+`checkout <guild>` and in-game guild help before committing.
 
 Guilds are organizations, disciplines, faiths, orders, and traditions. A guild
 is something a character learns to do as a skill. It gives the character a
@@ -10,28 +10,28 @@ belong to [Classes](classes.md), not the guild roster.
 
 ## Guild Roster
 
-| Developer | Guild | Status |
-| --- | --- | --- |
-| Acer | [Bard](guilds/bard.md) | Open |
-| Cales | [Berserker](guilds/berserker.md) | Open |
-| Acer | Cleric of Mitra | Open |
-| Acer | [Fighter](guilds/fighter.md) | Open |
-| Dink | [Garou](guilds/garou.md) | Open |
-| Cales | [Mage](guilds/mage.md) | Open |
-| Cales | [Ninja](guilds/ninja.md) | Open |
-| Acer | Paladin | Open |
-| Cales | Priest of Set | Open |
-| Cales | [Swashbuckler](guilds/swashbuckler.md) | Open |
-| Cales | [Thief](guilds/thief.md) | Open |
-| Acer | [Druid](guilds/druid.md) | Open |
-| Acer | [Monk](guilds/monk.md) | Open |
-| Cales | Necro | Open |
-| Acer | [Ranger](guilds/ranger.md) | Open |
-| Dink | Bastet/Gurahl | Closed |
-| Cales | [Charlatan](guilds/charlatan.md) | Open |
-| Cales | Blood Mage | Closed |
-| Cales | Deathknights | Closed |
-| Acer | [Street Samurai](guilds/street-samurai.md) | Open |
+| Guild | Availability |
+| --- | --- |
+| [Bard](guilds/bard.md) | Open |
+| [Berserker](guilds/berserker.md) | Open |
+| Cleric of Mitra | Open |
+| [Fighter](guilds/fighter.md) | Open |
+| [Garou](guilds/garou.md) | Open |
+| [Mage](guilds/mage.md) | Open |
+| [Ninja](guilds/ninja.md) | Open |
+| Paladin | Open |
+| Priest of Set | Open |
+| [Swashbuckler](guilds/swashbuckler.md) | Open |
+| [Thief](guilds/thief.md) | Open |
+| [Druid](guilds/druid.md) | Open |
+| [Monk](guilds/monk.md) | Open |
+| Necro | Open |
+| [Ranger](guilds/ranger.md) | Open |
+| Bastet/Gurahl | Closed |
+| [Charlatan](guilds/charlatan.md) | Open |
+| Blood Mage | Closed |
+| Deathknights | Closed |
+| [Street Samurai](guilds/street-samurai.md) | Open |
 
 ## How Guilds Work
 

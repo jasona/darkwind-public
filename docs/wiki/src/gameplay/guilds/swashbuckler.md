@@ -56,8 +56,7 @@ another flourish and when to stop before the feet get tangled.
 
 Swashbuckler Rank is open-ended and earned through GXP from qualifying kills,
 active combat windows, and triggered techniques. Ability Tier is
-`1 + floor(2 * sqrt(rank - 1))`; it synchronizes the legacy guild level so
-existing abilities, titles, and rooms remain compatible.
+`1 + floor(2 * sqrt(rank - 1))`; higher tiers open abilities and titles.
 
 Flow rises by 5 on eligible combat heartbeats, to a maximum of 100. It holds
 for six seconds after combat ends, then falls by 10 per heartbeat. Flow
@@ -114,8 +113,7 @@ pull effort every round. They can be started and stopped with `starttech` and
 | Dance of Death | Full Flow can steal a weapon hit; Tier 15 adds the rarer chance for one free triggered technique |
 | Spectral Siphon | Drains up to 12 SP and restores exactly what was drained |
 
-Dance of Death is passive at Tier 15; `sdance` remains reserved only for
-compatibility messaging. Spectral Siphon unlocks at Tier 18.
+Dance of Death is passive at Tier 15. Spectral Siphon unlocks at Tier 18.
 
 ## Phantom Brethren
 

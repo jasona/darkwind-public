@@ -12,14 +12,21 @@ currently equipped armour and weapons. Smart equip fills open equipment slots
 and replaces equipped items only when the new combination has a higher,
 high-confidence score.
 
+Hand equipment is evaluated as a complete setup rather than one item at a
+time. Smart equip compares a two-handed weapon against compatible dual-wielded
+weapon pairs and weapon-and-shield combinations. A secondary weapon's offense
+is weighted for its reduced attack rate, and your trained weapon
+specialization adds its normal combat advantage or disadvantage to the score.
+
 Only armour and weapons carried directly in your inventory are considered.
 Equipment stored inside bags or other containers is left where it is.
 Installed implants and other internal equipment are never changed.
 
-Smart equip checks one improvement at a time. If an item cannot be worn or
-wielded because of a character requirement, curse, size restriction, weapon
+Smart equip applies the best compatible hand setup atomically, then checks
+other armour improvements one at a time. If an item cannot be worn or wielded
+because of a character requirement, curse, size restriction, weapon
 combination, or another equipment rule, your displaced equipment is restored
-and that item is skipped.
+and that setup or item is skipped.
 
 You cannot use smart equip during combat, while dead, or while phased out.
 Use |CKBgearcheck|YKO afterward when you want to inspect the detailed score

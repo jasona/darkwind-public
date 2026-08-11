@@ -1,7 +1,7 @@
 # Classes
 
-Work in progress: the class roster is being built toward this design, and
-current game behavior differs in places.
+Availability varies by class. Use in-game class help and shrine responses when
+planning a permanent character choice.
 
 Classes are things a character innately is. A guild teaches a skill or
 discipline; a class changes the character's body, mind, nature, or relationship
@@ -11,13 +11,13 @@ See [Remort](mechanics/remort.md) for the larger progression system.
 
 ## Class Roster
 
-| Developer | Class | Status | Description |
-| --- | --- | --- | --- |
-| Cales | [Artificer](classes/artificer.md) | Coming | Schematics, devices, salvage, and crafted tools |
-| Acer | [Dragon](classes/dragon.md) | Open | Age, lineage, breath, lair, and hoard |
-| Acer | [Morpher](classes/morpher.md) | Closed | Flesh shaped into weapons, defenses, movement, and regeneration |
-| Cales | [Psionicist](classes/psionicist.md) | Open | Perception, force, telepathy, and control |
-| Acer | [Vampire](classes/vampire.md) | Closed | Hunger, blood, night, charm, fear, and predatory restraint |
+| Class | Availability | Description |
+| --- | --- | --- |
+| [Artificer](classes/artificer.md) | Coming | Schematics, devices, salvage, and crafted tools |
+| [Dragon](classes/dragon.md) | Open | Age, lineage, breath, lair, and hoard |
+| [Morpher](classes/morpher.md) | Closed | Flesh shaped into weapons, defenses, movement, and regeneration |
+| [Psionicist](classes/psionicist.md) | Open | Perception, force, telepathy, and control |
+| [Vampire](classes/vampire.md) | Closed | Hunger, blood, night, charm, fear, and predatory restraint |
 
 ## How Classes Work
 

@@ -40,8 +40,8 @@ See [Stats](stats.md).
 At level 250, players may optionally [remort](mechanics/remort.md): return to
 level 1, keep their wealth and belongings, and earn a permanent boon point for
 every rebirth. Boon points buy permanent bonuses that persist through every
-future life. [Shrines of Creation](mechanics/shrines-of-creation.md) are
-planned future flavor for this system.
+future life. Some [Shrines of Creation](mechanics/shrines-of-creation.md) may
+offer a different story around rebirth when they answer a character.
 
 ## Newbification
 

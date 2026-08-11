@@ -51,8 +51,7 @@ Heat, scarcity, machines, and human ambition all matter. A player feels the
 desert pressing in from every direction while civilization hisses, clanks,
 and refuses to die.
 
-The continent is one irregular 96 by 92 travel grid rather than a hub with
-detached area maps. Every live region occupies its own cells in that shared
-geography and meets the Cinder Flats through narrow, defended approaches.
-Pyre climbs through only part of its exact 30 by 30 civic reserve, leaving
-unbuilt terraces honestly blank for later growth.
+Ashad is crossed as one connected desert rather than a collection of detached
+destinations. Its settled regions meet the Cinder Flats through narrow,
+defended approaches, while Pyre climbs through terraces above the ash roads.
+Blank stretches on the map are part of the desert, not missing exits.

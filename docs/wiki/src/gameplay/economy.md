@@ -1,7 +1,5 @@
 # Economy
 
-Work in progress: this page documents live economy systems first, then planned economy ideas. Planned items are not live unless they appear in-game.
-
 DarkWind's economy is built from coins, banks, player markets, auctions, professions, corpse ash, and player-owned businesses. Most players interact with it by banking money, buying from shops, selling useful gear, gathering profession materials, burning corpses into ash, and visiting player-run pubs and inns.
 
 ## Quick Start
@@ -213,7 +211,8 @@ Autosell uses Taylor's normal appraisal, including your Charisma and your
 reputation in his lawful market, then deducts a 10% handling charge. The
 transmitted equipment enters Taylor's normal shop stock. Magical, unique,
 limited, customized, scripted, cursed, kept, unsellable, and container items
-are left behind for you to inspect or loot normally.
+are left behind for you to inspect or loot normally. Keys are always left in
+the corpse so they can be collected onto your keyring.
 
 Autosell and autorefine are mutually exclusive; enabling either option turns
 the other off. Autorefine uses the same yields as the Refinery, requires no
@@ -252,102 +251,3 @@ Common money uses:
 - Travel services
 - Storage and bank use
 - Donations, tips, and player-to-player trades
-
-## New And Upcoming
-
-These are planned economy directions for future development.
-
-### Player Housing
-
-Player housing gives characters a long-term place in the world.
-
-Housing features:
-
-- Purchasable rooms, homes, apartments, ships, towers, crypts, or domain-themed retreats
-- Guest lists and access controls
-- Decoration and furniture
-- Storage with limits and upkeep
-- Display spaces for trophies, rare gear, books, and crafted objects
-- Neighborhoods tied to cities, guilds, islands, or remote domains
-
-### Player Shops And Stalls
-
-Player shops expand the market into more personal storefronts.
-
-Shop features:
-
-- Stocked shelves and price tags
-- Consignment sales
-- Crafted goods displays
-- Limited stock specials
-- Owner-written shop descriptions
-- Domain markets with local flavor
-
-### Work Orders
-
-Work orders let players ask for specific goods or services.
-
-Examples:
-
-- A smith requests rare ore
-- An alchemist requests herbs and reagent drops
-- A ranger requests hides
-- A clan requests food and potions before a raid
-- A business owner requests ash or menu supplies
-- A player posts a reward for a specific crafted item
-
-### Shipping And Caravan Jobs
-
-Regional economies work better when goods move across the world.
-
-Future shipping jobs:
-
-- Carry trade goods between cities
-- Escort caravans
-- Deliver supplies to remote domains
-- Move ash, ore, herbs, and crafted goods
-- Take higher-risk routes for better pay
-- Tie rewards to distance, danger, and cargo value
-
-### Business Upgrades
-
-Owned pubs and inns can grow beyond menus and margins.
-
-Upgrade ideas:
-
-- Better servers
-- More menu slots
-- Local advertising
-- Specialty house items
-- Ash processor improvements
-- Owner rooms
-- Private event spaces
-- Decorations that change the room
-- Loyalty rewards for regular customers
-
-### Contracts And Commissions
-
-Contracts create player-to-player jobs without requiring both players to be online at the same time.
-
-Contract ideas:
-
-- Crafting commissions
-- Resource bounties
-- Escort jobs
-- Delivery jobs
-- Rare item finder's fees
-- Guild supply requests
-- Clan treasury jobs
-
-### Regional Trade
-
-Each domain has its own materials, dangers, and travel costs. Regional trade gives those differences economic weight.
-
-Regional trade ideas:
-
-- Local commodities with changing demand
-- Better prices for goods far from their source
-- Domain-specific crafting ingredients
-- Festival markets and temporary trade fairs
-- Smuggling and customs hooks where they fit the area
-- Merchant reputation by city or domain

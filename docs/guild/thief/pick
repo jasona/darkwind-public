@@ -5,5 +5,5 @@ or monsters.  The pick command allows you to do so at some
 predetermined percentage level.
 
 
-|CKOGLVL required: |GKB9
-|CKOSyntax: |YKOpick <item>               |CKOCost: |WKO~30
+|CKOGLVL required: |GKB6
+|CKOSyntax: |YKOpick <item> from <target>       |CKOCost: |WKO~30

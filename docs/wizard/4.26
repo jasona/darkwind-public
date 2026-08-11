@@ -66,7 +66,10 @@ natural physical attacks. NPC intrinsic armour likewise uses capped monster
 level when worn armour is not supplying the effective absorb class. When worn
 armour overtakes the NPC's intrinsic armour floor, the actual worn equipment
 levels are used instead. These fallbacks do not apply to unarmed or naked
-players, and boss tier remains separate from item level.
+players. A source-owned player intrinsic attack may explicitly supply a
+clamped item level, which provides the same standard level-derived penetration
+without requiring a hidden weapon object. Boss tier remains separate from item
+level.
 
 The matchup applies after the ordinary physical-armour cap is calculated.
 DAM_AP then halves the remaining armour contribution. Do not manually add a
@@ -89,6 +92,49 @@ hit bonus, armour dodge and absorb class, equipment stats, resistances, sigils,
 item-level armour penetration and strength, standard weapon and armour
 modifications, generated item procs, implant procs, cyberware strain,
 durability, and temporary item warnings.
+
+***************************************************************************
+                        Hidden Sigil Discovery
+***************************************************************************
+
+See wizhelp 4.27 for the complete builder-facing sigil guide, including how
+to mark equipment, add registry entries and effects, wire discovery, and
+validate the result.
+
+The shared sigil registry in <sigils.h> distinguishes public and hidden
+definitions:
+
+====================
+"open mark": SIGIL_DEF(3, 100, "mid", "Its concise effect summary"),
+"secret mark": HIDDEN_SIGIL_DEF(3, 160, "high",
+  "Its concise effect summary"),
+====================
+
+A hidden sigil remains mechanically active and contributes its full equipment
+power. Its ID, level, summary, and named effect messages are concealed from a
+character until discovery. Item inspection reports only an uninterpreted
+marking, gearcheck reports an undiscovered sigil, and the sigils command omits
+it. Do not use display text or equipment possession as discovery state.
+
+The system owning the real criterion reveals it at the successful mutation
+boundary:
+
+====================
+if (player->discover_sigil("secret mark"))
+  /* criterion-specific follow-up, if any */
+====================
+
+discover_sigil() returns true only for a newly learned hidden registry ID,
+saves player progression immediately, and gives a generic discovery message.
+Pass a nonzero second argument to suppress that message when the owning quest,
+encounter, remort, or lore interaction supplies its own presentation.
+query_sigil_known() reports public or discovered IDs, and
+query_discovered_sigils() returns a defensive copy of learned hidden IDs.
+
+Discovery is an additive player-save field. Existing saves restore with an
+empty discovery list, and lazy normalization removes malformed, duplicate,
+public, or retired entries. Hidden definitions should not be added to public
+wiki tables or other static exhaustive lists.
 
 Custom scripted callbacks cannot be executed while an item is being inspected.
 Running weapon_hit(), wear_func(), or an implant callback during gearcheck could

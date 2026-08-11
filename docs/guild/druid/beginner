@@ -25,6 +25,9 @@ Your first useful path is:
    study points, learned invocations, grove status, and profession
    materials.  Druid XP advances your guild level automatically when
    your regular level permits it.  Any blocked XP remains banked.
+   Druid XP and rank progress survive remort; the current progression
+   curve is designed to reach guild level 30 within one normally played
+   remort life.
    The |CKBcost|000 and |CKBadvance guild|000 commands in the advancement
    cavern explain your next rank, but do not spend ordinary experience.
 
@@ -57,7 +60,8 @@ Your first useful path is:
 
    Plant it in a wild place you want to return to.  Later,
    |CKBcommune|000 returns you to your grove.  |CKBdhelp grove|000
-   explains grove growth, return, and the inner sanctum.
+   explains grove growth, return, the inner sanctum, and how the grove
+   rests safely between remort lives.
 
 |CKB6. Learn and perform a first ritual.|000
 

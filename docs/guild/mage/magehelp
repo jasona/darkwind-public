@@ -101,11 +101,14 @@ Aiken opens at Arcane 8 and can only be bound to damaging workings. It halves
 normal armor absorption without bypassing elemental resistance, intrinsic
 reduction, shields, or Mana Barrier.
 
+Fireball lands lightly and writes most of its harm into the flames that follow.
 Burning may stack to fifty times an NPC's level. Against players it remains
 capped at the target's level.
 
-Mana Barrier opens at Arcane 7. While active, each damaging hit has a
-thirty-five percent chance to spend SP in place of HP after ordinary defenses.
+Mana Barrier opens at Arcane 7. While active, each damaging hit has a chance
+to spend SP in place of HP after ordinary defenses. Its chance improves with
+true Arcane rank, while mastery makes the conversion more efficient.
+"battlemage" reports the exact current values.
 Concentration blocks pause a prepared barrage without discarding it; the same
 cadence resumes when the block lifts. A manual Bolt is independent of the
 prepared barrage and scales as a dedicated lightning strike. Bodach changes

@@ -25,10 +25,10 @@ Workings appear at these Arcane ranks:
   Arcane 14  Wrath
   Arcane 15  Singularity, Touch, Grand Mage channel, marginalia
 
-Fireball and Inferno leave enemies Burning. Burning strength may accumulate up
-to fifty times an NPC's level, while player targets retain the ordinary
-one-times-level cap. Icestorm chills a room, while
-Stasis closes a delayed frost equation around one target and applies Freezing.
+Fireball lands lightly but kindles deep flames; most of its harm arrives as
+Burning rather than in the first impact. Inferno also leaves its victims
+Burning. Icestorm chills a room, while Statis closes a
+delayed frost equation around one target and applies Freezing.
 Glassstorm waits in the air before shattering across nearby enemies and leaving
 them Exposed. Singularity is the natural conclusion: it consumes hostile
 statuses from the room and gains fifteen percent damage from each condition,
@@ -40,6 +40,12 @@ behind to keep damaging the target.
 Area workings gain some total force as more hostile patterns enter their
 geometry, up to twice their one-target total, and still divide that total among
 their targets.
+
+Sometimes a working finds a perfect line through its target and critically
+converges, striking with half again its usual force before ordinary defenses
+blunt it. Equipment and an Exposed enemy can make that moment more likely.
+Every missile and every separate barrage seeks its own line, as does the
+working against each enemy caught in its area.
 
 Overchannel opens at Arcane 8. "overchannel 5" spends five percent of maximum
 SP in addition to the normal cost of each manual damaging working. Arcane 16
@@ -89,9 +95,11 @@ at level 250. The barrage count never reads or copies ordinary weapon swings,
 and an Investiture FOCUS does not qualify.
 
 Mana Barrier lasts from forty-five seconds upward and gives each damaging hit
-a thirty-five percent chance to spend SP instead of HP after ordinary defenses
-have reduced the blow. If SP cannot cover the whole hit, it absorbs as much as
-the remaining reserve permits.
+a chance to spend SP instead of HP after ordinary defenses have reduced the
+blow. That chance rises with true Arcane rank on a diminishing curve, while
+Mana Barrier mastery reduces the SP spent per point absorbed. Costs round up;
+if SP cannot cover the whole hit, the barrier absorbs as much as the remaining
+reserve permits. "battlemage" reports the exact current chance and efficiency.
 
 Powerup normally converts chosen HP immediately at 175 percent. When Bodach is
 bound, it becomes a visible fifteen-pulse buff instead: each pulse spends the

@@ -255,5 +255,5 @@ The maximum player level is 250 (MYTHIC).
 
 Remort characters do not use this table: they advance automatically
 as soon as they have enough experience, pay no gold to level, and
-their experience requirements rise by 10% per remort level. See
+their experience requirements rise by 2% per remort level. See
 'help remort' for details.
